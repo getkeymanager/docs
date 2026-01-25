@@ -1,9 +1,9 @@
 ---
-title: My Site
+title: GetKeyManager Documentation
 toc: false
 ---
 
-This is the landing page.
+Welcome to the GetKeyManager docs! This is a collection of guides and resources to help you get started with GetKeyManager, SDK and the API.
 
 ## Explore
 
@@ -14,4 +14,4 @@ This is the landing page.
 
 ## Documentation
 
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+For more information, visit [GetKeyManager.com](https://getkeymanager.com).
