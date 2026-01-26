@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: KeyManager Documentation
+title: KeyManager Docs
 baseURL: "https://docs.getkeymanager.com/"
 
 
@@ -65,13 +65,20 @@ params:
   externalLinkDecoration: true
 
   banner:
-    key: 'announcement-v0.11'
+    key: 'announcement'
     message: |
-      GetKeyManager is coming soon! 🎉 See here to know [what's new]({{% ref "https://dev.getkeymanager.com" %}})
+      GetKeyManager is coming soon! 🎉 See here to know [what's new](https://dev.getkeymanager.com)
 
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: images/logo-km.svg
+      dark: images/logo-dark-km.svg
+      # width: 40
+      # height: 40
+      # link: /
+    width: wide
 
   footer:
     displayCopyright: false
