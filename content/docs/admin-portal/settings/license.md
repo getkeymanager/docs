@@ -630,10 +630,10 @@ A: No. Use longer cache duration instead. Disabling verification eliminates all 
 
 ## Related Settings
 
-- [Settings Overview](../) - All settings tabs
-- [Abuse Detection](../abuse-detection) - Automated abuse prevention
-- [Logging Settings](../logging) - Track validation events
-- [Webhook Settings](../webhooks) - Payment processor integrations
+- [Settings Overview]({{< ref "/docs/admin-portal/settings/_index" >}}) - All settings tabs
+- [Abuse Detection]({{< ref "/docs/admin-portal/abuse-detection" >}}) - Automated abuse prevention
+- [Logging Settings]({{< ref "/docs/admin-portal/logging" >}}) - Track validation events
+- [Webhook Settings]({{< ref "/docs/admin-portal/webhooks" >}}) - Payment processor integrations
 
 ---
 

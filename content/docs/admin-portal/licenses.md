@@ -713,16 +713,16 @@ When creating or editing a license:
 ## Integration with Other Pages
 
 **Related Admin Pages:**
-* **[Generators](../generators)** — Create licenses in bulk
-* **[Products](../products)** — Configure products before generating licenses
-* **[Customers](../customers)** — Manage customer accounts
-* **[Activations](../activations)** — View device-level activation history
-* **[Contracts](../contracts)** — Automate license assignment via contracts
-* **[Background Jobs](../background-jobs)** — Monitor bulk operations
+* **[Generators]({{< ref "/docs/admin-portal/generators" >}})** — Create licenses in bulk
+* **[Products]({{< ref "/docs/admin-portal/products" >}})** — Configure products before generating licenses
+* **[Customers]({{< ref "/docs/admin-portal/customers" >}})** — Manage customer accounts
+* **[Activations]({{< ref "/docs/admin-portal/activations" >}})** — View device-level activation history
+* **[Contracts]({{< ref "/docs/admin-portal/contracts" >}})** — Automate license assignment via contracts
+* **[Background Jobs]({{< ref "/docs/admin-portal/background-jobs" >}})** — Monitor bulk operations
 
 **Related Settings:**
-* **[License Settings](../settings/license)** — Global license defaults and grace periods
-* **[Abuse Detection](../settings/abuse-detection)** — Configure automatic suspension rules
+* **[License Settings]({{< ref "/docs/admin-portal/settings/license" >}})** — Global license defaults and grace periods
+* **[Abuse Detection]({{< ref "/docs/admin-portal/settings/abuse-detection" >}})** — Configure automatic suspension rules
 
 ---
 

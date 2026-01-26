@@ -861,10 +861,10 @@ A: Verify IAM permissions include s3:PutObject, s3:GetObject, s3:DeleteObject. C
 
 ## Related Settings
 
-- [Settings Overview](../) - All settings tabs
-- [General Settings](../general) - Application configuration
-- [Email Settings](../email) - Notification delivery
-- [Backup Settings](../backup) - Database backups (may use same storage)
+- [Settings Overview]({{< ref "/docs/admin-portal/settings/_index" >}}) - All settings tabs
+- [General Settings]({{< ref "/docs/admin-portal/general" >}}) - Application configuration
+- [Email Settings]({{< ref "/docs/admin-portal/email" >}}) - Notification delivery
+- [Backup Settings]({{< ref "/docs/admin-portal/backup" >}}) - Database backups (may use same storage)
 
 ---
 

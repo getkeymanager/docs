@@ -548,10 +548,10 @@ Once telemetry is enabled, focus on these high-value metrics:
 
 ## Related Settings
 
-- [Settings Overview](../) - All settings tabs
-- [Logging Settings](../logging) - System event logging
-- [License Settings](../license) - License configuration
-- [General Settings](../general) - Overall system settings
+- [Settings Overview]({{< ref "/docs/admin-portal/settings/_index" >}}) - All settings tabs
+- [Logging Settings]({{< ref "/docs/admin-portal/logging" >}}) - System event logging
+- [License Settings]({{< ref "/docs/admin-portal/license" >}}) - License configuration
+- [General Settings]({{< ref "/docs/admin-portal/general" >}}) - Overall system settings
 
 ---
 

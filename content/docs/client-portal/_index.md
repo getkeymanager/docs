@@ -31,26 +31,26 @@ Instead of relying on manual support requests, customers can use this portal to 
 
 The Customer Self-Service Portal consists of the following core areas:
 
-### [Dashboard](dashboard)
+### [Dashboard]({{< ref "/docs/client-portal/dashboard" >}})
 An at-a-glance summary of account health, total license counts, and recent activity updates.
 
-### [My Licenses](licenses)
+### [My Licenses]({{< ref "/docs/client-portal/licenses" >}})
 The central repository for software keys. Includes validation diagnostics to help troubleshoot "Invalid License" errors in the software.
 
-### [Activations](activations)
+### [Activations]({{< ref "/docs/client-portal/activations" >}})
 A management tool for hardware and domain bindings. Allows for remote deactivation of old or retired machines.
 
-### [Downloads](downloads)
+### [Downloads]({{< ref "/docs/client-portal/downloads" >}})
 A secure hub for accessing software packages and product assets associated with your specific entitlements.
 
-### [Profile & Settings](profile)
+### [Profile & Settings]({{< ref "/docs/client-portal/profile" >}})
 Tools for maintaining account security (passwords) and personalizing the portal experience (timezones and notifications).
 
-### [Account Settings](settings)
+### [Account Settings]({{< ref "/docs/client-portal/settings" >}})
 
 Configure your account preferences, notification settings, and display options.
 
-### [Profile & Security](profile)
+### [Profile & Security]({{< ref "/docs/client-portal/profile" >}})
 
 Manage your profile information and security settings. Update personal details and secure your account.
 
