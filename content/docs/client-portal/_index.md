@@ -5,49 +5,46 @@ weight: 3
 
 # Customer Self-Service Portal
 
-![Customer Self-Service Portal Overview](placeholder-overview.png)
-*Screenshot placeholder - will be added*
+The **Customer Self-Service Portal** is a secure, first-class architectural surface designed to empower license owners. It provides full transparency into license ownership and allows for autonomous management of software installations and assets.
 
 ---
 
 ## Overview
 
-The **Customer Self-Service Portal** is a secure interface for end customers who own licenses. It provides transparency into license ownership and allows customers to manage their own activations.
+Instead of relying on manual support requests, customers can use this portal to manage their entire relationship with the platform. It is strictly separated from the Admin Portal to ensure security and prevent unauthorized access to multi-customer telemetry or management tools.
 
 ### Who Is This For?
 
-- Customers who own licenses
-- End users of licensed products
+- **Direct Customers**: Individuals or organizations who have purchased licenses.
+- **End Users**: Users who have been assigned licenses by an administrator.
 
 ### Key Capabilities
 
-- View your licenses and their status
-- Manage activations on your devices
-- Download software and updates
-- View product changelogs
-- Manage account settings
+- **License Transparency**: View live status, keys, and feature entitlements.
+- **Self-Service HWID Management**: Remotely deactivate hardware and domain bindings to free up license slots.
+- **Secure Asset Delivery**: Access product installers and documentation via crytographically signed download links.
+- **Account Governance**: Manage personal profile data, credentials, and notification preferences.
 
 ---
 
 ## Available Pages
 
-The Customer Self-Service Portal consists of the following pages:
+The Customer Self-Service Portal consists of the following core areas:
 
 ### [Dashboard](dashboard)
-
-Provides a summary of your license ownership and recent activity. See at-a-glance information about your licenses, activations, and upcoming expirations.
+An at-a-glance summary of account health, total license counts, and recent activity updates.
 
 ### [My Licenses](licenses)
-
-View and manage all licenses assigned to your account. Check license status, view details, and access license keys.
+The central repository for software keys. Includes validation diagnostics to help troubleshoot "Invalid License" errors in the software.
 
 ### [Activations](activations)
-
-View and manage activations representing installations on your devices, machines, or domains. Deactivate installations you no longer use.
+A management tool for hardware and domain bindings. Allows for remote deactivation of old or retired machines.
 
 ### [Downloads](downloads)
+A secure hub for accessing software packages and product assets associated with your specific entitlements.
 
-Access downloadable files, software updates, and documentation that you are entitled to based on your licenses.
+### [Profile & Settings](profile)
+Tools for maintaining account security (passwords) and personalizing the portal experience (timezones and notifications).
 
 ### [Account Settings](settings)
 

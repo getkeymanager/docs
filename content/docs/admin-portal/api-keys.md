@@ -5,57 +5,63 @@ weight: 100
 
 # API Keys
 
-![Admin Portal API Keys Screenshot](placeholder-image.png)
-*Screenshot placeholder - will be added*
+The API Keys page is the control center for programmatic access to the platform. It allows administrators to generate, manage, and secure the credentials used by external applications, scripts, and integrations.
 
 ---
 
 ## What Is This Page?
 
-Manage API keys for automation and third-party integrations. Control access permissions and rate limits.
+API Keys provide a secure way to authenticate requests to the platform's public API without requiring a username or password. Each key is tightly controlled through environment scoping, granular permissions, and rate limiting to ensure that automation remains secure and predictable.
 
 ---
 
-## When to Use This Page
+## Key Features
 
-Use this page to generate API keys for integrations, configure IP allowlisting, set endpoint permissions, or manage key expiration.
+### 1. Environment Scoping
+API Keys are strictly bound to one of the following environments:
+- **Production**: Active for real-world operations.
+- **Staging**: Used for testing integrations with realistic data.
+- **Development**: Isolated environment for initial coding and experimentation.
+*Cross-environment access is strictly forbidden by the platform core.*
 
----
+### 2. Granular Permissions
+Each key can be assigned a specific set of permissions. You can see a summary of these permissions (e.g., `License Management`, `Customer Read`, `Telemetry Write`) directly in the main list. This follows the principle of least privilege—only granting the exact access needed for a specific integration.
 
-## What You Can Do Here
-
-### API Key Features
-
-Environment-scoped, IP allowlisting, endpoint-level permissions, configurable rate limits, optional expiry dates.
-
-![API Key Features Screenshot](placeholder-api-keys-api-key-features.png)
-*Screenshot placeholder - will be added*
-
-### Key Management
-
-Generate new keys (shown once only), view key list, edit permissions/settings, enable/disable keys, delete keys.
-
-![Key Management Screenshot](placeholder-api-keys-key-management.png)
-*Screenshot placeholder - will be added*
-
-### Security
-
-API keys are never shown again after creation. Store securely. All key usage is logged.
-
-![Security Screenshot](placeholder-api-keys-security.png)
-*Screenshot placeholder - will be added*
+### 3. Lifecycle Management
+- **Status Monitoring**: Instantly see if a key is `Active`, `Inactive`, or `Expired`.
+- **Last Used Tracking**: Monitor exactly when a key was last used to identify orphaned or underutilized integrations.
+- **Revocation**: If a key is compromised or no longer needed, it can be revoked immediately, cutting off all future access without deleting the historical data associated with it.
 
 ---
 
-## How to Access
+## Using API Keys
 
-1. Log in to the Admin Portal
-2. Navigate to **API Keys** in the main menu
+### Generating a New Key
+1. Click **Create API Key**.
+2. Give the key a descriptive **Name** (e.g., "Main Website Integration").
+3. Select the **Environment**.
+4. Configure **Permissions** and **Rate Limits**.
+5. **CRITICAL**: Copy your API key immediately. For security reasons, the full key is only displayed once.
+
+### Rotation & Security
+If a key is accidentally exposed or needs to be rotated as part of a security policy:
+- **Regenerate**: This action generates a new random string while keeping the same name, permissions, and configuration. The old key will stop working immediately.
+- **Revoke**: Use this to temporarily disable a key without deleting it.
+
+---
+
+## Troubleshooting
+
+- **401 Unauthorized**: 
+    - Verify that the key is **Active** and hasn't **Expired**.
+    - Ensure the key is being used against the correct environment endpoint (e.g., using a "Staging" key on the "Production" API will fail).
+- **429 Too Many Requests**: Check the **Rate Limits** column. If your integration is hitting limits, you may need to increase the threshold in the key's settings.
+- **Permission Denied (403)**: Ensure the key has the specific permission required for the endpoint you are calling. You can verify active permissions in the "Permissions" column.
 
 ---
 
 ## Related Pages
 
-- [Dashboard](../dashboard) - Main overview
-- [Settings](../settings) - System configuration
-- [Profile](../profile) - Your admin profile
+- [Logs](../logs) - View detailed API request/response logs.
+- [Background Jobs](../background-jobs) - Monitor jobs triggered via the API.
+- [Customers](../customers) - API keys can be scoped to specific customers for restricted access.

@@ -5,57 +5,51 @@ weight: 50
 
 # Account Settings
 
-![Customer Portal Account Settings Screenshot](placeholder-image.png)
-*Screenshot placeholder - will be added*
+The Account Settings page allows you to personalize your experience within the Customer Portal and control how the platform communicates with you.
 
 ---
 
 ## What Is This Page?
 
-Configure your account preferences, notification settings, and display options.
+This page manages your regional preferences and notification triggers. These settings ensure that the timestamps you see are relevant to your location and that you only receive the alerts you care about.
 
 ---
 
-## When to Use This Page
+## Key Features
 
-Use this page to customize your experience, control email notifications, or update account preferences.
+### 1. Regional Preferences
+- **Timezone Selection**: Choose your local timezone from a comprehensive global list. This setting updates all timestamps across the dashboard, licenses, and activation lists to match your local time.
 
----
+### 2. Communication Preferences
+Control the volume and type of emails you receive from the platform:
+- **Email Notifications**: Toggle general notifications about your licenses and activation status.
+- **Security Alerts**: Enable or disable alerts regarding important security events, such as login attempts from new devices or password changes.
+*Crucial security alerts may still be sent regardless of this setting if they are classified as mandatory by the system administrator.*
 
-## What You Can Do Here
-
-### Account Settings
-
-Timezone (for dates/times display), language (if multi-language enabled), display preferences.
-
-![Account Settings Screenshot](placeholder-settings-account-settings.png)
-*Screenshot placeholder - will be added*
-
-### Notification Preferences
-
-License expiry warnings, activation limit approaching, new downloads available, product updates, security alerts.
-
-![Notification Preferences Screenshot](placeholder-settings-notification-preferences.png)
-*Screenshot placeholder - will be added*
-
-### Security Alerts
-
-Enable/disable security notifications for unusual account activity.
-
-![Security Alerts Screenshot](placeholder-settings-security-alerts.png)
-*Screenshot placeholder - will be added*
+### 3. Interface Customization
+- **Theme Toggle**: While managed via the top navigation bar, the settings page confirms your ability to switch between **Light** and **Dark** modes for optimal viewing comfort.
 
 ---
 
 ## How to Access
 
-1. Log in to the Customer Portal
-2. Click on **Account Settings** in the navigation menu
+1. Log in to the **Customer Portal**.
+2. Click **Settings** in the sidebar navigation.
+
+---
+
+## Troubleshooting
+
+- **Timestamps Still Incorrect**: Double-check that you have clicked **Save Settings** after selecting your new timezone. The change is not applied until the form is submitted.
+- **Not Receiving Emails**: 
+    - Ensure **Email Notifications** is toggled ON.
+    - Check your spam folder for messages from the platform's domain.
+    - Verify your account email address on the [Profile](profile) page.
+- **Settings Not Saving**: If you encounter an error while saving, ensure your internet connection is stable and refresh the page before trying again.
 
 ---
 
 ## Related Pages
 
-- [Dashboard](../dashboard) - Main overview
-- [Settings](../settings) - Account settings
-- [Profile](../profile) - Your profile
+- [Profile](profile) - Update your name and manage your account password.
+- [Dashboard](dashboard) - View the results of your personalized timezone and theme settings.

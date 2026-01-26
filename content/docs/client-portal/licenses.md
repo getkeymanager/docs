@@ -5,71 +5,66 @@ weight: 20
 
 # My Licenses
 
-![Customer Portal My Licenses Screenshot](placeholder-image.png)
-*Screenshot placeholder - will be added*
+The My Licenses page is your personal repository for all software entitlements purchased or assigned to your account. It allows you to track the lifecycle of your licenses from initial assignment to expiration.
 
 ---
 
 ## What Is This Page?
 
-View and manage all licenses assigned to your account. Check license status, view details, and access license keys.
+This page provides a searchable, filterable list of every license you own. It is the primary location for retrieving license keys and checking the health and validity of your software installations.
 
 ---
 
-## When to Use This Page
+## Key Features
 
-Use this page to find your license keys, check license expiration dates, view activation limits, or see which features are enabled.
+### 1. License Inventory
+The main list provides high-level visibility into:
+- **License Status**: Clearly labeled badges (e.g., `Active`, `Expired`, `Revoked`, `Suspended`).
+- **Activation Progress**: Track how many devices you have registered versus your total limit (e.g., `2 / 5`).
+- **Expiration Tracking**: Automatic warnings for licenses expiring within 7 days.
+
+### 2. Comprehensive Details
+Clicking **View Details** on any license provides a deep dive into its configuration:
+- **Secure Key Retrieval**: Your full license key is available with a one-click "Copy to Clipboard" utility.
+- **Validation Diagnostics**: If a license is not working as expected, the "Validation Status" section provides a detailed explanation (e.g., "Activation limit reached" or "License expired").
+- **Product Context**: View the specific product name, version eligibility, and environment (Production/Staging).
+
+### 3. Advanced Filtering
+Easily locate specific keys or products using:
+- **Global Search**: Search by full or partial license keys and product names.
+- **Status Filtering**: Isolate specific licenses by their current state (e.g., show only `Suspended` licenses).
 
 ---
 
-## What You Can Do Here
+## Understanding License States
 
-### License List
-
-Shows all your licenses with product name, status, expiry date, activation count/limit. Search and filter by status or product.
-
-![License List Screenshot](placeholder-licenses-license-list.png)
-*Screenshot placeholder - will be added*
-
-### License Details
-
-View full license key (with copy-to-clipboard), product name, status, expiry date, activation limits, enabled features, environment, creation date.
-
-![License Details Screenshot](placeholder-licenses-license-details.png)
-*Screenshot placeholder - will be added*
-
-### License States
-
-Assigned (not yet activated), Active (in use), Suspended (temporarily disabled), Expired (past expiry), Revoked (permanently disabled).
-
-![License States Screenshot](placeholder-licenses-license-states.png)
-*Screenshot placeholder - will be added*
-
-### License Actions
-
-Copy license key, view activations, download offline license file (if enabled), view feature entitlements.
-
-![License Actions Screenshot](placeholder-licenses-license-actions.png)
-*Screenshot placeholder - will be added*
-
-### License Explainability
-
-If a license is invalid, see why: current state, expiry reason, activation limit reached, hardware/domain mismatch, environment mismatch.
-
-![License Explainability Screenshot](placeholder-licenses-license-explainability.png)
-*Screenshot placeholder - will be added*
+| State | Description |
+| :--- | :--- |
+| **Active** | Valid and currently in use on one or more devices. |
+| **Assigned** | Assigned to you but not yet activated on any device. |
+| **Suspended** | Temporarily disabled by the administrator. |
+| **Expired** | The subscription period has ended. |
+| **Revoked** | Permanently disabled and cannot be used again. |
 
 ---
 
 ## How to Access
 
-1. Log in to the Customer Portal
-2. Click on **My Licenses** in the navigation menu
+1. Log in to the **Customer Portal**.
+2. Click **My Licenses** in the sidebar navigation.
+
+---
+
+## Troubleshooting
+
+- **License Key Not Showing**: Some high-security keys may remain masked until you click the "Copy" icon. If the key is entirely missing, contact your administrator.
+- **Activation Limit Error**: If you see a "Limit Reached" error in the Validation Status, navigate to the [Activations](activations) page to deactivate an old device.
+- **Red Expiry Date**: This indicates the license has already expired and the software will no longer authenticate. You must renew your license to restore functionality.
 
 ---
 
 ## Related Pages
 
-- [Dashboard](../dashboard) - Main overview
-- [Settings](../settings) - Account settings
-- [Profile](../profile) - Your profile
+- [Dashboard](dashboard) - Overview of recent license activity.
+- [Activations](activations) - Manage individual device registrations.
+- [Downloads](downloads) - Access software restricted by your licenses.

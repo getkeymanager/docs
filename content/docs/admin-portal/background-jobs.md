@@ -5,57 +5,68 @@ weight: 150
 
 # Background Jobs
 
-![Admin Portal Background Jobs Screenshot](placeholder-image.png)
-*Screenshot placeholder - will be added*
+The Background Jobs page provides real-time visibility into the platform's asynchronous task processing system. This is where long-running or high-volume tasks are managed to ensure optimal system performance.
 
 ---
 
 ## What Is This Page?
 
-Monitor and manage background jobs running on the platform. Track job status, progress, and errors.
+Background Jobs are tasks that run in the "background" to avoid slowing down the user interface. Common examples include sending emails, processing telemetry data, sync operations (like Envato), and bulk license generation. This page allows you to monitor the health of these queues and troubleshoot any issues that arise.
 
 ---
 
-## When to Use This Page
+## Dashboard Overview
 
-Use this page to monitor long-running operations, check job status, troubleshoot failures, or retry failed jobs.
+### 1. Job Statistics
+At the top of the page, three key metrics provide a snapshot of system health:
+- **Running / Queued**: The total number of tasks currently being processed or waiting to start.
+- **Failed Jobs**: The number of tasks that encountered an error and could not complete.
+- **Active Queues**: The number of independent processing lanes (e.g., `default`, `high`, `emails`) currently in use.
 
----
-
-## What You Can Do Here
-
-### Job Types
-
-Bulk license generation, email delivery, telemetry processing, webhook dispatch, Envato sync, report generation, data exports.
-
-![Job Types Screenshot](placeholder-background-jobs-job-types.png)
-*Screenshot placeholder - will be added*
-
-### Job Monitoring
-
-View queued, processing, completed, and failed jobs. See job ID, status, progress percentage, start/end time, error messages, retry count.
-
-![Job Monitoring Screenshot](placeholder-background-jobs-job-monitoring.png)
-*Screenshot placeholder - will be added*
-
-### Job Management
-
-Monitor progress, view error details, retry failed jobs.
-
-![Job Management Screenshot](placeholder-background-jobs-job-management.png)
-*Screenshot placeholder - will be added*
+### 2. Active Jobs
+A list of the **last 10 active tasks** showing:
+- **Status**: Visual indicators for `Processing` (currently running) or `Queued` (waiting for an available worker).
+- **Attempts**: How many times the system has tried to run the job.
+- **Timing**: Relative timestamps showing when the job was created.
 
 ---
 
-## How to Access
+## Managing Failed Jobs
 
-1. Log in to the Admin Portal
-2. Navigate to **Background Jobs** in the main menu
+When a task fails (e.g., due to a temporary network timeout or an invalid API key), it is moved to the **Failed Jobs** section for intervention.
+
+### Interstitial Diagnostics
+- **Exception Logs**: The table displays a truncated version of the error message. Hover over the text to see the full stack trace for deep troubleshooting.
+- **Connection Details**: Identifies which driver (e.g., `redis`, `database`) was used for the task.
+
+### Recovery Actions
+- **Retry Job**: Click the "Retry" button to move a failed task back into the main queue. The system will attempt to execute it again starting with 0 attempts.
+- **Delete Job**: If a task is no longer relevant or the error cannot be fixed, use the "Delete" action to permanently remove it from the failure log.
+
+---
+
+## Common Background Tasks
+
+| Task Category | Description |
+| :--- | :--- |
+| **Email Delivery** | All outbound system emails (2FA codes, license keys, alerts). |
+| **Telemetry** | Processing incoming hardware fingerprints and usage data from SDKs. |
+| **Webhooks** | Sending notification payloads to third-party URLs. |
+| **Bulk Operations** | Generating hundreds of license keys or exporting large datasets. |
+| **Sync Jobs** | Periodically pulling data from Envato or other external marketplaces. |
+
+---
+
+## Troubleshooting
+
+- **Large Number of Queued Jobs**: If jobs are piling up but not processing, ensure that your **Queue Worker** (typically handled via `php artisan queue:work`) is running on the server.
+- **Repeating Failures**: If a job fails immediately after a retry, check the **Exception** column for specific error details. Common causes include expired API tokens or disconnected third-party services.
+- **Empty Active List**: The active list only shows pending or currently processing tasks. If your system is idle, this list will be empty—this usually indicates healthy, fast-moving queues.
 
 ---
 
 ## Related Pages
 
-- [Dashboard](../dashboard) - Main overview
-- [Settings](../settings) - System configuration
-- [Profile](../profile) - Your admin profile
+- [Logs](../logs) - Check for system-level errors associated with job failures.
+- [Settings](../settings) - Configure timeout values and queue connections.
+- [Email Templates](../email-templates) - Manage the content of queued email jobs.
