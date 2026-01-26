@@ -2,10 +2,23 @@
 title: KeyManager Documentation
 baseURL: "https://docs.getkeymanager.com/"
 
+
+enableRobotsTXT: true
+# Parse Git commit
+enableGitInfo: true
+# enableEmoji: false
+hasCJKLanguage: true
+
+
 # import hextra as module
 module:
   imports:
     - path: github.com/imfing/hextra
+
+outputs:
+  home: [html, llms]
+  page: [html, markdown]
+  section: [html, rss, markdown]
 
 markup:
   # allow raw html
@@ -47,6 +60,15 @@ menu:
         icon: x-twitter
 
 params:
+  description: A complete comprehensive documentation for GetKeyManager.com.
+
+  externalLinkDecoration: true
+
+  banner:
+    key: 'announcement-v0.11'
+    message: |
+      GetKeyManager is coming soon! 🎉 See here to know [what's new]({{% ref "https://dev.getkeymanager.com" %}})
+
   navbar:
     displayTitle: true
     displayLogo: false
@@ -58,3 +80,25 @@ params:
   editURL:
     enable: true
     base: "https://github.com/getkeymanager/docs/edit/main/content"
+
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+
+  imageZoom:
+    enable: true
+
