@@ -3,7 +3,7 @@ title: Webhooks
 weight: 110
 ---
 
-# Webhooks
+
 
 ![Admin Portal Webhooks Screenshot](placeholder-webhooks-overview.png)
 *Screenshot of the Webhooks management page*

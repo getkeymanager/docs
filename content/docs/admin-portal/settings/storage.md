@@ -3,8 +3,6 @@ title: Storage & File Management
 weight: 40
 ---
 
-# Storage & File Management Settings
-
 ![Storage Settings Tab](placeholder-settings-storage.png)
 *Screenshot of Storage Settings tab*
 

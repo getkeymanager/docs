@@ -46,7 +46,7 @@ All API requests require authentication using an API key. You can provide the AP
 ### Endpoints (36 endpoints)
 
 - ✓ [Send Telemetry](endpoints/send-telemetry) - `POST /api/v1/send-telemetry-data` (2 examples)
-- ✓ [Get Telemetry](endpoints/get-telemetry) - `GET /api/v1/get-telemetry-data` (1 examples)
+- ✓ [Get Telemetry](endpoints/get-telemetry-data) - `GET /api/v1/get-telemetry-data` (1 examples)
 - ✓ [Verify  License Key](endpoints/verify-license-key) - `POST /api/v1/verify` (2 examples)
 - ✓ [Activate  License Key](endpoints/activate-license-key) - `POST /api/v1/activate` (3 examples)
 - ✓ [Assign License Key](endpoints/assign-license-key) - `POST /api/v1/assign-license-key` (2 examples)

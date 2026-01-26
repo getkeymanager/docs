@@ -3,8 +3,6 @@ title: Get All Contracts
 weight: 10
 ---
 
-# Get All Contracts
-
 ## Endpoint Details
 
 - **Method:** `GET`

@@ -3,8 +3,6 @@ title: System Logs
 weight: 170
 ---
 
-# System Logs
-
 ![Admin Portal System Logs Screenshot](placeholder-logs-overview.png)
 *Screenshot of the System Logs page with activity timeline*
 

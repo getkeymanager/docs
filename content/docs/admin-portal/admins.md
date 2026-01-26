@@ -3,8 +3,6 @@ title: Admin Users
 weight: 80
 ---
 
-# Admin Users
-
 ![Admin Portal Admin Users Screenshot](placeholder-admins-overview.png)
 *Screenshot of the Admin Users page with roles and permissions*
 

@@ -3,8 +3,6 @@ title: Create License Keys
 weight: 10
 ---
 
-# Create License Keys
-
 ## Endpoint Details
 
 - **Method:** `POST`

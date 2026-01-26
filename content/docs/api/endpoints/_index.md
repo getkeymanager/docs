@@ -11,6 +11,9 @@ All endpoints in this section require API key authentication and follow the stan
 
 ## Categories
 
+### Access Restricted Area
+- Validate API Access Restriction
+
 ### License Key Operations
 - License verification and validation
 - License activation and deactivation
@@ -28,6 +31,7 @@ All endpoints in this section require API key authentication and follow the stan
 - Legacy contract operations
 
 ### Telemetry
+- Retrieve telemetry
 - Send telemetry data
 - Retrieve telemetry data
 

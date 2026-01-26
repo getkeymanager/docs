@@ -3,8 +3,6 @@ title: Notifications
 weight: 190
 ---
 
-# Notifications
-
 The Notifications page provides a centralized hub for managing system alerts, activity updates, and administrative tasks. It ensures that system administrators are promptly informed about critical events and routine operations within the platform.
 
 ---

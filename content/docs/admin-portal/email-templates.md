@@ -3,8 +3,6 @@ title: Email Templates
 weight: 120
 ---
 
-# Email Templates
-
 The Email Templates page allows you to manage and customize the automated communications sent by the platform to both customers and administrators.
 
 ---

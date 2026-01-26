@@ -3,8 +3,6 @@ title: Documentation
 weight: 1
 ---
 
-# getKeyManager Documentation
-
 Welcome to the complete documentation for the License Management Platform.
 
 ## Overview

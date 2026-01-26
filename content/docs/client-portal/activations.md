@@ -3,7 +3,7 @@ title: Activations
 weight: 30
 ---
 
-# Activations
+
 
 The Activations page allows you to manage the specific devices, domains, or machines currently authenticated using your licenses. It provides self-service tools to free up license slots without needing to contact support.
 

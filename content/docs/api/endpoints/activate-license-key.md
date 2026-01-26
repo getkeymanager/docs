@@ -3,8 +3,6 @@ title: Activate  License Key
 weight: 10
 ---
 
-# Activate  License Key
-
 ## Endpoint Details
 
 - **Method:** `POST`

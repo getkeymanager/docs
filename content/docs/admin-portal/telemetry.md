@@ -3,7 +3,7 @@ title: Telemetry Analytics
 weight: 140
 ---
 
-# Telemetry Analytics
+
 
 ![Admin Portal Telemetry Screenshot](placeholder-telemetry-overview.png)
 *Screenshot of the Telemetry Analytics dashboard with usage trends*

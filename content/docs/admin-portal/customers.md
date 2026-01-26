@@ -3,8 +3,6 @@ title: Customers
 weight: 70
 ---
 
-# Customers
-
 ![Admin Portal Customers Screenshot](placeholder-customers-overview.png)
 *Screenshot of the Customers page showing customer list with license counts and management options*
 

@@ -3,8 +3,6 @@ title: Email Settings
 weight: 30
 ---
 
-# Email Settings
-
 ![Email Settings Tab](placeholder-settings-email.png)
 *Screenshot of Email Settings tab*
 

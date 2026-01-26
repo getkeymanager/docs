@@ -3,8 +3,6 @@ title: License Generators
 weight: 30
 ---
 
-# License Generators
-
 ![Admin Portal License Generators Screenshot](placeholder-generators-overview.png)
 *Screenshot of the License Generators page showing the list view with search, filters, and action buttons*
 

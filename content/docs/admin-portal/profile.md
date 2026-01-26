@@ -3,8 +3,6 @@ title: Profile & Security
 weight: 210
 ---
 
-# Profile & Security
-
 ![Admin Portal Profile & Security Screenshot](placeholder-profile-overview.png)
 *Screenshot of the Profile page with personal information and security settings*
 

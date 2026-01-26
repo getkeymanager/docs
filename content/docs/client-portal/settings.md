@@ -3,7 +3,7 @@ title: Account Settings
 weight: 50
 ---
 
-# Account Settings
+
 
 The Account Settings page allows you to personalize your experience within the Customer Portal and control how the platform communicates with you.
 

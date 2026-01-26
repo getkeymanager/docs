@@ -3,7 +3,7 @@ title: Create Product
 weight: 10
 ---
 
-# Create Product
+
 
 ## Endpoint Details
 

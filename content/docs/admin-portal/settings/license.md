@@ -3,8 +3,6 @@ title: License Settings
 weight: 20
 ---
 
-# License Settings
-
 ![License Settings Tab](placeholder-settings-license.png)
 *Screenshot of License Settings tab*
 

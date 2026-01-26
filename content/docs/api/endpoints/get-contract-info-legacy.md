@@ -3,7 +3,7 @@ title: Get Contract Info (Legacy)
 weight: 10
 ---
 
-# Get Contract Info (Legacy)
+
 
 ## Description
 

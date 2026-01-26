@@ -3,7 +3,7 @@ title: My Licenses
 weight: 20
 ---
 
-# My Licenses
+
 
 The My Licenses page is your personal repository for all software entitlements purchased or assigned to your account. It allows you to track the lifecycle of your licenses from initial assignment to expiration.
 

@@ -3,8 +3,6 @@ title: Create Product Meta
 weight: 10
 ---
 
-# Create Product Meta
-
 ## Endpoint Details
 
 - **Method:** `POST`

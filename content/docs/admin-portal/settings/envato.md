@@ -3,8 +3,6 @@ title: Envato Integration
 weight: 100
 ---
 
-# Envato Integration
-
 ![Envato Integration Tab](placeholder-settings-envato.png)
 *Screenshot of Envato Integration tab*
 

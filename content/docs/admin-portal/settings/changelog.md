@@ -3,8 +3,6 @@ title: Changelog Settings
 weight: 50
 ---
 
-# Changelog Settings
-
 ![Changelog Settings Tab](placeholder-settings-changelog.png)
 *Screenshot of Changelog Settings tab*
 

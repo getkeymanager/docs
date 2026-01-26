@@ -3,8 +3,6 @@ title: Abuse Detection
 weight: 110
 ---
 
-# Abuse Detection & Auto-Suspension
-
 ![Abuse Detection Settings Tab](placeholder-settings-abuse-detection.png)
 *Screenshot of Abuse Detection settings tab*
 

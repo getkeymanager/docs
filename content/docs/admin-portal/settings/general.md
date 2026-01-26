@@ -3,8 +3,6 @@ title: General Settings
 weight: 10
 ---
 
-# General Settings
-
 ![General Settings Tab](placeholder-settings-general.png)
 *Screenshot of General Settings tab*
 

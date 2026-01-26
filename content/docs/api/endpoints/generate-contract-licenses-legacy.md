@@ -3,8 +3,6 @@ title: Generate Contract Licenses (Legacy)
 weight: 10
 ---
 
-# Generate Contract Licenses (Legacy)
-
 ## Description
 
 Legacy endpoint for generating contract licenses. Kept for backward compatibility.

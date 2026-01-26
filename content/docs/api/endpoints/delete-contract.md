@@ -3,8 +3,6 @@ title: Delete Contract
 weight: 10
 ---
 
-# Delete Contract
-
 ## Endpoint Details
 
 - **Method:** `POST`

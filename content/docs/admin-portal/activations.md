@@ -3,8 +3,6 @@ title: Activations
 weight: 60
 ---
 
-# Activations
-
 ![Admin Portal Activations Screenshot](placeholder-activations-overview.png)
 *Screenshot of the Activations page showing the list view with search, filters, and activation management actions*
 
@@ -575,7 +573,7 @@ This is immutable and cannot be deleted. Useful for:
 
 However, admins have **additional powers:**
 - Can deactivate any device (customers can only deactivate their own)
-- Can deactivate devices for any license (customers only see their licenses)
+- Can deactivate devices for any license (customers only see their own)
 - Can see all historical activations (customers only see active ones)
 
 ---

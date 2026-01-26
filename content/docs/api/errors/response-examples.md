@@ -3,7 +3,7 @@ title: Response Examples
 weight: 10
 ---
 
-# Response Examples
+
 
 ## Description
 

@@ -3,8 +3,6 @@ title: Background Jobs
 weight: 150
 ---
 
-# Background Jobs
-
 The Background Jobs page provides real-time visibility into the platform's asynchronous task processing system. This is where long-running or high-volume tasks are managed to ensure optimal system performance.
 
 ---

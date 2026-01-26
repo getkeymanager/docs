@@ -3,8 +3,6 @@ title: Webhook Settings
 weight: 70
 ---
 
-# Webhook Settings
-
 ![Webhook Settings Tab](placeholder-settings-webhooks.png)
 *Screenshot of Webhook Settings tab*
 

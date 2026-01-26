@@ -3,8 +3,6 @@ title: Downloadables
 weight: 90
 ---
 
-# Downloadables
-
 ![Admin Portal Downloadables Screenshot](placeholder-downloadables-overview.png)
 *Screenshot of Downloadables page showing product files and releases*
 

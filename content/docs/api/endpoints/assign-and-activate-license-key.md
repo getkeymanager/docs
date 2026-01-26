@@ -3,8 +3,6 @@ title: Assign And Activate License Key
 weight: 10
 ---
 
-# Assign And Activate License Key
-
 ## Endpoint Details
 
 - **Method:** `POST`

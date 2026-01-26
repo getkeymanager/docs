@@ -3,7 +3,7 @@ title: Dashboard Widgets
 weight: 130
 ---
 
-# Dashboard Widgets
+
 
 ![Admin Portal Dashboard Widgets Screenshot](placeholder-widgets-overview.png)
 *Screenshot of the Dashboard Widgets management page*

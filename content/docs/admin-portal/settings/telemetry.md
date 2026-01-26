@@ -3,8 +3,6 @@ title: Telemetry Settings
 weight: 60
 ---
 
-# Telemetry Settings
-
 ![Telemetry Settings Tab](placeholder-settings-telemetry.png)
 *Screenshot of Telemetry Settings tab*
 

@@ -3,8 +3,6 @@ title: Global Search
 weight: 220
 ---
 
-# Global Search
-
 Global Search is a powerful tool designed to help administrators navigate the platform efficiently by providing instant access to critical data from anywhere in the Admin Portal.
 
 ---

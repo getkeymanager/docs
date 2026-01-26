@@ -3,8 +3,6 @@ title: Contracts
 weight: 50
 ---
 
-# Contracts
-
 ![Admin Portal Contracts Screenshot](placeholder-contracts-overview.png)
 *Screenshot of the Contracts page showing contract list with management options*
 

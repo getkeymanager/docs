@@ -3,7 +3,7 @@ title: Generate
 weight: 10
 ---
 
-# Generate
+
 
 ## Endpoint Details
 

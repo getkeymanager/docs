@@ -3,7 +3,7 @@ title: Update Product
 weight: 10
 ---
 
-# Update Product
+
 
 ## Endpoint Details
 

@@ -3,7 +3,7 @@ title: Verify  License Key
 weight: 10
 ---
 
-# Verify  License Key
+
 
 ## Description
 

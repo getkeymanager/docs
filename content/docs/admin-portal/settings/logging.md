@@ -3,8 +3,6 @@ title: Logging Settings
 weight: 80
 ---
 
-# Logging Settings
-
 ![Logging Settings Tab](placeholder-settings-logging.png)
 *Screenshot of Logging Settings tab*
 

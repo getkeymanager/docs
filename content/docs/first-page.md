@@ -6,4 +6,3 @@ next: docs/folder/
 ---
 
 A simple demo page.
-

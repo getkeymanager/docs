@@ -3,7 +3,7 @@ title: Send Telemetry
 weight: 10
 ---
 
-# Send Telemetry
+
 
 ## Description
 

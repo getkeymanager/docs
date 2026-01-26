@@ -3,8 +3,6 @@ title: Data Retention Policies
 weight: 180
 ---
 
-# Data Retention Policies
-
 ![Admin Portal Data Retention Policies Screenshot](placeholder-retention-overview.png)
 *Screenshot of the Retention Policies page with purge statistics*
 

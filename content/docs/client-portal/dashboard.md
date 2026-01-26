@@ -3,7 +3,7 @@ title: Dashboard
 weight: 10
 ---
 
-# Dashboard
+
 
 The Customer Dashboard provides an at-a-glance overview of your license ownership, activation status, and recent activity. It is the landing page for the Customer Self-Service Portal.
 

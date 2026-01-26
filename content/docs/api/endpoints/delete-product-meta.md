@@ -3,8 +3,6 @@ title: Delete Product Meta
 weight: 10
 ---
 
-# Delete Product Meta
-
 ## Endpoint Details
 
 - **Method:** `POST`

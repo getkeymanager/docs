@@ -3,7 +3,7 @@ title: Webhook Deliveries
 weight: 160
 ---
 
-# Webhook Deliveries
+
 
 ![Admin Portal Webhook Deliveries Screenshot](placeholder-webhook-deliveries-overview.png)
 *Screenshot of the Webhook Deliveries log page*

@@ -3,8 +3,6 @@ title: Get Available License Keys Count
 weight: 10
 ---
 
-# Get Available License Keys Count
-
 ## Endpoint Details
 
 - **Method:** `GET`

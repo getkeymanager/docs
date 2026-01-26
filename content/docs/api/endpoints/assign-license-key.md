@@ -3,8 +3,6 @@ title: Assign License Key
 weight: 10
 ---
 
-# Assign License Key
-
 ## Endpoint Details
 
 - **Method:** `POST`

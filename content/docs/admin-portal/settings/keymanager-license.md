@@ -3,8 +3,6 @@ title: KeyManager License
 weight: 90
 ---
 
-# KeyManager License
-
 ![KeyManager License Tab](placeholder-settings-keymanager-license.png)
 *Screenshot of KeyManager License tab*
 

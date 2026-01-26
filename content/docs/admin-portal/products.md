@@ -3,8 +3,6 @@ title: Products
 weight: 20
 ---
 
-# Products
-
 ![Admin Portal Products Screenshot](placeholder-products-overview.png)
 *Screenshot of the Products page showing the list view with search, filters, and product management actions*
 

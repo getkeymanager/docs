@@ -3,8 +3,6 @@ title: Settings
 weight: 200
 ---
 
-# Settings
-
 ![Admin Portal Settings Screenshot](placeholder-settings-overview.png)
 *Screenshot will be added showing the settings interface with all 11 tabs*
 
@@ -1435,4 +1433,3 @@ A: If auto-suspended, they'll receive an error message. Otherwise, flagging is a
 ---
 
 **Proper configuration ensures strong protection without disrupting legitimate users.**
-

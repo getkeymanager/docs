@@ -3,8 +3,6 @@ title: Dashboard
 weight: 10
 ---
 
-# Admin Dashboard
-
 ![Admin Portal Dashboard Screenshot](placeholder-dashboard-overview.png)
 *Screenshot showing the complete dashboard with KPIs, charts, widgets, and activity feed*
 

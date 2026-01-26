@@ -3,8 +3,6 @@ title: Destroy All Contract Licenses (Legacy)
 weight: 10
 ---
 
-# Destroy All Contract Licenses (Legacy)
-
 ## Description
 
 Legacy endpoint for destroying all contract licenses. Kept for backward compatibility.

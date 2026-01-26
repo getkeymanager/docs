@@ -3,7 +3,7 @@ title: Profile & Security
 weight: 60
 ---
 
-# Profile & Security
+
 
 The Profile & Security page allows you to manage your personal identifier and safeguard your account through robust credential management.
 

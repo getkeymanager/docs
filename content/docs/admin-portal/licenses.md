@@ -3,7 +3,7 @@ title: License Keys
 weight: 40
 ---
 
-# License Keys
+
 
 ![Admin Portal License Keys Screenshot](placeholder-licenses-overview.png)
 *Screenshot of the License Keys page showing the list view with search, filters, and license management actions*

@@ -3,8 +3,6 @@ title: Create Contract
 weight: 10
 ---
 
-# Create Contract
-
 ## Endpoint Details
 
 - **Method:** `POST`

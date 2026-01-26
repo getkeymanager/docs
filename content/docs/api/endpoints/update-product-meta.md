@@ -3,8 +3,6 @@ title: Update Product Meta
 weight: 10
 ---
 
-# Update Product Meta
-
 ## Endpoint Details
 
 - **Method:** `POST`

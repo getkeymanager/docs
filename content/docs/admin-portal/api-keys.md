@@ -3,8 +3,6 @@ title: API Keys
 weight: 100
 ---
 
-# API Keys
-
 The API Keys page is the control center for programmatic access to the platform. It allows administrators to generate, manage, and secure the credentials used by external applications, scripts, and integrations.
 
 ---

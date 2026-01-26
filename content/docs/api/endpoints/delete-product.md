@@ -3,7 +3,7 @@ title: Delete Product
 weight: 10
 ---
 
-# Delete Product
+
 
 ## Endpoint Details
 
