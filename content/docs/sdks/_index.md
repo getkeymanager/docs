@@ -3,7 +3,7 @@ title: Software Development Kits (SDKs)
 weight: 20
 ---
 
-# Software Development Kits (SDKs)
+
 
 Integrate GetKeyManager effortlessly with your applications using our official SDKs. Each SDK is optimized for its respective ecosystem and follows industry-standard patterns.
 

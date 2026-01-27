@@ -3,7 +3,7 @@ title: CodeIgniter SDK
 description: Official CodeIgniter 4 SDK for the License Management Platform.
 ---
 
-# CodeIgniter SDK
+
 
 The official CodeIgniter 4 SDK provides simple yet powerful license management for PHP developers working in the CI4 ecosystem.
 

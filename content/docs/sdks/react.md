@@ -3,7 +3,7 @@ title: React SDK
 description: Official React SDK for the License Management Platform.
 ---
 
-# React SDK
+
 
 The official React SDK provides hooks and utilities for integrating license management directly into your React applications with state-based awareness.
 

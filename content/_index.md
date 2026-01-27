@@ -3,7 +3,7 @@ title: GetKeyManager Documentation
 toc: false
 ---
 
-# Welcome to GetKeyManager
+
 
 GetKeyManager is an enterprise-grade, API-first, cryptographically verifiable **License Management Platform**. It provides everything you need to issue, manage, and enforce software licenses with support for offline validation, hardware binding, and explicit license state machines.
 

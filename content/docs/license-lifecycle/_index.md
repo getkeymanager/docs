@@ -1,4 +1,7 @@
-# License Lifecycle & State Machine
+---
+title: License Lifecycle & State Machine
+weight: 30
+---
 
 ![License Lifecycle Placeholder Image](PLACEHOLDER_FOR_IMAGE)
 

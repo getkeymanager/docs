@@ -3,7 +3,7 @@ title: Next.js SDK
 description: Official Next.js SDK for the License Management Platform.
 ---
 
-# Next.js SDK
+
 
 The official Next.js SDK combined the best of our React hooks and Node.js capabilities to provide a seamless licensing experience for modern web applications.
 

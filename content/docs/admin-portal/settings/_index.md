@@ -3,7 +3,7 @@ title: Settings
 weight: 200
 ---
 
-# Settings
+
 
 ![Admin Portal Settings Overview](placeholder-settings-overview.png)
 *Screenshot showing the settings interface with all 11 tabs*

@@ -3,7 +3,7 @@ title: Customer Self-Service Portal
 weight: 3
 ---
 
-# Customer Self-Service Portal
+
 
 The **Customer Self-Service Portal** is a secure, first-class architectural surface designed to empower license owners. It provides full transparency into license ownership and allows for autonomous management of software installations and assets.
 

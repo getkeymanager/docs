@@ -3,7 +3,7 @@ title: Changelog Display
 description: Display product changelogs directly on your WordPress site.
 ---
 
-# Changelog Display for WordPress
+
 
 A lightweight plugin to sync and display your product changelogs from GetKeyManager on any WordPress page or post.
 

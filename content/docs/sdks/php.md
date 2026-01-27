@@ -3,7 +3,7 @@ title: PHP SDK
 description: Official PHP SDK for the License Management Platform API.
 ---
 
-# PHP SDK
+
 
 The official PHP SDK for the License Management Platform provides a robust, enterprise-grade interface for license validation, activation, and management.
 

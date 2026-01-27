@@ -3,7 +3,6 @@ title: Admin Portal
 weight: 2
 ---
 
-# Admin Portal
 
 ![Admin Portal Overview](placeholder-overview.png)
 *Screenshot placeholder - will be added*

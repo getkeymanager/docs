@@ -3,7 +3,7 @@ title: Quick Start Guide
 description: Get up and running with GetKeyManager in less than 5 minutes.
 ---
 
-# Quick Start Guide
+
 
 Welcome to GetKeyManager! This guide will walk you through the essential steps to start managing your software licenses.
 

@@ -3,7 +3,6 @@ title: WordPress Plugins
 weight: 30
 ---
 
-# WordPress Plugins
 
 Integrate GetKeyManager with your WordPress and WooCommerce ecosystem using our official plugins. Whether you're selling licenses, managing contracts, or displaying updates, we have you covered.
 

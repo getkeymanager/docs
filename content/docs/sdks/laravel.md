@@ -3,7 +3,7 @@ title: Laravel SDK
 description: Official Laravel SDK for the License Management Platform.
 ---
 
-# Laravel SDK
+
 
 The official Laravel SDK provides elegant license validation, activation, and management with native Laravel support, including service providers, facades, and middleware.
 

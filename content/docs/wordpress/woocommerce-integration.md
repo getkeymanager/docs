@@ -3,7 +3,7 @@ title: WooCommerce Integration
 description: Automatically assign license keys when customers purchase products.
 ---
 
-# WooCommerce Integration
+
 
 The official WooCommerce integration plugin bridges your store with GetKeyManager, automating the delivery of license keys to your customers.
 

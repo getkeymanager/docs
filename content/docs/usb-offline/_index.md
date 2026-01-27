@@ -1,4 +1,7 @@
-# USB-Based Offline License Management
+---
+title: USB-Based Offline License Management
+weight: 30
+---
 
 ![USB Offline Placeholder Image](PLACEHOLDER_FOR_IMAGE)
 

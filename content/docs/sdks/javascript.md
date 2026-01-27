@@ -3,7 +3,7 @@ title: JavaScript SDK
 description: Official JavaScript/Node.js SDK for the License Management Platform.
 ---
 
-# JavaScript SDK
+
 
 The official JavaScript/Node.js SDK provides a modern, promise-based interface for managing licenses in both browser and server-side environments.
 

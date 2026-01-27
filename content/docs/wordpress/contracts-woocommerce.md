@@ -3,7 +3,7 @@ title: Contracts WooCommerce Integration
 description: Automatically create contracts for resellers and agencies.
 ---
 
-# Contracts WooCommerce Integration
+
 
 This plugin is designed for businesses that sell "buckets" of licenses or reseller access. It automatically creates GetKeyManager contracts upon purchase.
 
