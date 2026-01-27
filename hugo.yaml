@@ -1,7 +1,7 @@
 # Hugo configuration file
 title: KeyManager Docs
 baseURL: "https://docs.getkeymanager.com/"
-
+refLinksErrorLevel: warning
 
 enableRobotsTXT: true
 # Parse Git commit
@@ -59,7 +59,7 @@ params:
   description: A complete comprehensive documentation for GetKeyManager.com.
 
   externalLinkDecoration: true
-  refLinksErrorLevel: warning
+
   banner:
     key: 'announcement'
     message: |
