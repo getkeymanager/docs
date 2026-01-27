@@ -12,7 +12,7 @@ Integrate GetKeyManager with your WordPress and WooCommerce ecosystem using our 
 {{< cards >}}
   {{< card link="woocommerce-integration" title="WooCommerce Integration" icon="shopping-cart" >}}
   {{< card link="contracts-woocommerce" title="Contracts Integration" icon="users" >}}
-  {{< card link="changelog-display" title="Changelog Display" icon="list" >}}
+  {{< card link="changelog-display" title="Changelog Display" icon="lightning-bolt" >}}
 {{< /cards >}}
 
 ---

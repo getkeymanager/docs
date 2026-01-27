@@ -18,10 +18,10 @@ GetKeyManager is an enterprise-grade, API-first, cryptographically verifiable **
 ## Explore the Docs
 
 {{< cards >}}
-  {{< card link="quick-start" title="Quick Start" icon="bolt" >}}
-  {{< card link="docs/admin-portal" title="Admin Portal" icon="layout" >}}
+  {{< card link="quick-start" title="Quick Start" icon="lightning-bolt" >}}
+  {{< card link="docs/admin-portal" title="Admin Portal" icon="home" >}}
   {{< card link="docs/api" title="API Reference" icon="code" >}}
-  {{< card link="docs/license-lifecycle" title="License Lifecycle" icon="refresh-cw" >}}
+  {{< card link="docs/license-lifecycle" title="License Lifecycle" icon="cog" >}}
 {{< /cards >}}
 
 ## Getting Help
