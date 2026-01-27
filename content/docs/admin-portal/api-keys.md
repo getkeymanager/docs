@@ -60,6 +60,6 @@ If a key is accidentally exposed or needs to be rotated as part of a security po
 
 ## Related Pages
 
-- [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) - View detailed API request/response logs.
-- [Background Jobs]({{< ref "/../../docs/docs/admin-portal/background-jobs" >}}) - Monitor jobs triggered via the API.
-- [Customers]({{< ref "/../../docs/docs/admin-portal/customers" >}}) - API keys can be scoped to specific customers for restricted access.
+- [Logs]({{< ref "/../../docs/admin-portal/logs" >}}) - View detailed API request/response logs.
+- [Background Jobs]({{< ref "/../../docs/admin-portal/background-jobs" >}}) - Monitor jobs triggered via the API.
+- [Customers]({{< ref "/../../docs/admin-portal/customers" >}}) - API keys can be scoped to specific customers for restricted access.

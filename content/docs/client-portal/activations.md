@@ -60,5 +60,5 @@ Manage large numbers of activations effectively with:
 
 ## Related Pages
 
-- [Dashboard]({{< ref "/../../docs/docs/client-portal/dashboard" >}}) - View total activation counts.
-- [My Licenses]({{< ref "/../../docs/docs/client-portal/licenses" >}}) - Check the activation limits for each of your products.
+- [Dashboard]({{< ref "/../../docs/client-portal/dashboard" >}}) - View total activation counts.
+- [My Licenses]({{< ref "/../../docs/client-portal/licenses" >}}) - Check the activation limits for each of your products.

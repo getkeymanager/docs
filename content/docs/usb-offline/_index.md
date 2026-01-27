@@ -8,7 +8,7 @@
 
 USB-based license management allows you to distribute and enforce licenses in environments without internet connectivity (air-gapped systems). The license is physically tied to a USB device, ensuring that the software can only run when the authorized physical key is present.
 
-This is a specific implementation of [Offline Validation]({{< ref "/../../docs/docs/license-lifecycle" >}}) that uses the USB drive as a hardware anchor.
+This is a specific implementation of [Offline Validation]({{< ref "/../../docs/license-lifecycle" >}}) that uses the USB drive as a hardware anchor.
 
 ---
 
@@ -33,7 +33,7 @@ The license file is typically bound to a unique identifier of the USB drive (e.g
 Every offline license uses **RSA-4096 signatures**. This ensures that the license data (expiry, features, status) cannot be modified by the user. If a single byte is changed, the validation will fail.
 
 ### 3. State Enforcement
-Even without a connection, the [License State Machine]({{< ref "/../../docs/docs/license-lifecycle" >}}) is enforced. The embedded `expires_at` and `status` fields determine whether the software continues to run.
+Even without a connection, the [License State Machine]({{< ref "/../../docs/license-lifecycle" >}}) is enforced. The embedded `expires_at` and `status` fields determine whether the software continues to run.
 
 ---
 
@@ -50,10 +50,10 @@ Even without a connection, the [License State Machine]({{< ref "/../../docs/docs
 ## Implementation Steps
 
 ### 1. Create a Product
-First, ensure your [Product]({{< ref "/../../docs/docs/admin-portal/products" >}}) is configured in the Admin Portal with "Offline Support" enabled.
+First, ensure your [Product]({{< ref "/../../docs/admin-portal/products" >}}) is configured in the Admin Portal with "Offline Support" enabled.
 
 ### 2. Generate the Offline License
-Use the [Offline License Generator]({{< ref "/../../docs/docs/admin-portal/generators" >}}) or the API to create a signed license file. You will need to provide the target Hardware ID (HWID) or USB identifier if binding is required.
+Use the [Offline License Generator]({{< ref "/../../docs/admin-portal/generators" >}}) or the API to create a signed license file. You will need to provide the target Hardware ID (HWID) or USB identifier if binding is required.
 
 ### 3. Deploy to USB
 Place the generated `.lic` file onto the authorized USB drive.
@@ -65,10 +65,10 @@ Integrate one of our SDKs into your application. Configure the SDK to look for t
 
 ## Related Pages
 
-*   [License Lifecycle]({{< ref "/../../docs/docs/license-lifecycle" >}}) — Understand the different states of a license.
-*   [Generators]({{< ref "/../../docs/docs/admin-portal/generators" >}}) — How to create offline licenses at scale.
-*   [Products]({{< ref "/../../docs/docs/admin-portal/products" >}}) — Configuring your products for offline use.
-*   [Activations]({{< ref "/../../docs/docs/admin-portal/activations" >}}) — Managing existing license activations.
+*   [License Lifecycle]({{< ref "/../../docs/license-lifecycle" >}}) — Understand the different states of a license.
+*   [Generators]({{< ref "/../../docs/admin-portal/generators" >}}) — How to create offline licenses at scale.
+*   [Products]({{< ref "/../../docs/admin-portal/products" >}}) — Configuring your products for offline use.
+*   [Activations]({{< ref "/../../docs/admin-portal/activations" >}}) — Managing existing license activations.
 
 ---
 

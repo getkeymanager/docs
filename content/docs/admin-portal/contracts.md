@@ -250,7 +250,7 @@ Click **"View Details"** in the Actions menu to see comprehensive contract infor
 
 #### Associated Licenses
 - Count of licenses created via this contract
-- Link to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page filtered by this contract
+- Link to [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) page filtered by this contract
 - Export licenses to CSV (contract-specific export)
 
 #### API Access (if enabled)
@@ -279,8 +279,8 @@ Click **"View Details"** in the Actions menu to see comprehensive contract infor
 4. Click **"Generate"**
 5. For small batches (< 100): Immediate generation
 6. For large batches (100+): Queued as background job
-7. Monitor progress in [Background Jobs]({{< ref "/../../docs/docs/admin-portal/background-jobs" >}})
-8. Generated licenses appear in [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page with source = "Contract"
+7. Monitor progress in [Background Jobs]({{< ref "/../../docs/admin-portal/background-jobs" >}})
+8. Generated licenses appear in [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) page with source = "Contract"
 
 #### Method 2: API Generation (Automated)
 ```bash
@@ -425,7 +425,7 @@ Click **"Delete"** in the Actions menu to permanently remove the contract.
 3. **Test Generation**
    - Generate 1 test license manually
    - Verify license has correct features, limits, expiry
-   - Check license appears in [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) with source "Contract: TechReseller Inc..."
+   - Check license appears in [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) with source "Contract: TechReseller Inc..."
    - Test API generation with contract API key
    - Verify webhook receives notification (if configured)
 
@@ -444,7 +444,7 @@ Click **"Delete"** in the Actions menu to permanently remove the contract.
    - Check contract details regularly
    - Review quota utilization: "47 / 200 used"
    - Monitor generation history
-   - Check for API errors or rate limit violations in [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}})
+   - Check for API errors or rate limit violations in [Logs]({{< ref "/../../docs/admin-portal/logs" >}})
 
 7. **Quarterly Renewal**
    - At end of quarter, evaluate performance
@@ -481,13 +481,13 @@ Click **"Delete"** in the Actions menu to permanently remove the contract.
    - Copy job ID for tracking
 
 3. **Monitor Generation**
-   - Go to [Background Jobs]({{< ref "/../../docs/docs/admin-portal/background-jobs" >}})
+   - Go to [Background Jobs]({{< ref "/../../docs/admin-portal/background-jobs" >}})
    - Find job by ID
    - Monitor progress: "Generating... 127 / 500 completed"
    - Wait for status: "Completed"
 
 4. **Assign to Customer**
-   - Go to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page
+   - Go to [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) page
    - Filter: Source = "Contract: Acme Corp..."
    - Bulk select all 500 licenses
    - Click **"Bulk Assign"**
@@ -531,7 +531,7 @@ Click **"Delete"** in the Actions menu to permanently remove the contract.
    - Wait for completion (may take 10-30 minutes)
 
 3. **Verify Pool**
-   - Go to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}})
+   - Go to [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}})
    - Filter: Source = "Contract: Black Friday 2026..."
    - Status = "Available" (unassigned)
    - Should see 2,000 licenses ready
@@ -678,7 +678,7 @@ Click **"Delete"** in the Actions menu to permanently remove the contract.
 - API returns HTTP 429 (Too Many Requests)
 - Response includes: "Retry-After" header
 - Generation is blocked until rate limit window resets
-- Event logged in [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}})
+- Event logged in [Logs]({{< ref "/../../docs/admin-portal/logs" >}})
 
 ---
 
@@ -698,7 +698,7 @@ Click **"Delete"** in the Actions menu to permanently remove the contract.
 **Export Contract Data:**
 1. Go to contract details page
 2. Click **"Export Report"** (if available)
-3. Or: Go to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) → Filter by contract → Export CSV
+3. Or: Go to [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) → Filter by contract → Export CSV
 
 **What's Included:**
 - All licenses generated via contract
@@ -750,7 +750,7 @@ Click **"Delete"** in the Actions menu to permanently remove the contract.
 
 ### Problem: API key not working for reseller
 
-**Solution:** Verify API key copied correctly (no extra spaces). Check contract status is Active. Verify IP allowlist (if configured) includes reseller's IP. Check rate limits not exceeded. Review [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) for specific API error messages.
+**Solution:** Verify API key copied correctly (no extra spaces). Check contract status is Active. Verify IP allowlist (if configured) includes reseller's IP. Check rate limits not exceeded. Review [Logs]({{< ref "/../../docs/admin-portal/logs" >}}) for specific API error messages.
 
 ---
 
@@ -762,7 +762,7 @@ Click **"Delete"** in the Actions menu to permanently remove the contract.
 
 ### Problem: Licenses generated via contract not appearing in Licenses page
 
-**Solution:** Verify background job completed successfully (check [Background Jobs]({{< ref "/../../docs/docs/admin-portal/background-jobs" >}})). If job failed, review error message. Common causes: Product inactive, generator deleted, database issues. May need to regenerate.
+**Solution:** Verify background job completed successfully (check [Background Jobs]({{< ref "/../../docs/admin-portal/background-jobs" >}})). If job failed, review error message. Common causes: Product inactive, generator deleted, database issues. May need to regenerate.
 
 ---
 
@@ -830,12 +830,12 @@ If you set an expiry configuration on the contract, yes. All licenses generated 
 
 ## Related Pages
 
-* [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) — View licenses generated from contracts
-* [Generators]({{< ref "/../../docs/docs/admin-portal/generators" >}}) — Configure license generation rules used by contracts
-* [Background Jobs]({{< ref "/../../docs/docs/admin-portal/background-jobs" >}}) — Monitor bulk license generation progress
-* [Customers]({{< ref "/../../docs/docs/admin-portal/customers" >}}) — Assign contract licenses to customers
-* [API Keys]({{< ref "/../../docs/docs/admin-portal/api-keys" >}}) — Manage admin API keys (different from contract API keys)
-* [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) — Audit contract activity and API calls
+* [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) — View licenses generated from contracts
+* [Generators]({{< ref "/../../docs/admin-portal/generators" >}}) — Configure license generation rules used by contracts
+* [Background Jobs]({{< ref "/../../docs/admin-portal/background-jobs" >}}) — Monitor bulk license generation progress
+* [Customers]({{< ref "/../../docs/admin-portal/customers" >}}) — Assign contract licenses to customers
+* [API Keys]({{< ref "/../../docs/admin-portal/api-keys" >}}) — Manage admin API keys (different from contract API keys)
+* [Logs]({{< ref "/../../docs/admin-portal/logs" >}}) — Audit contract activity and API calls
 
 ---
 

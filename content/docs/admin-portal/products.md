@@ -148,7 +148,7 @@ This algorithm is used to:
 **Send Email on License Issue**
 - ☑ Checked: Customer receives email when a new license is created or assigned to them
 - ☐ Unchecked: No automatic emails sent
-- Requires Email settings to be configured in [Settings > Email]({{< ref "/../../docs/docs/admin-portal/settings" >}})
+- Requires Email settings to be configured in [Settings > Email]({{< ref "/../../docs/admin-portal/settings" >}})
 - Can be toggled later
 
 **Enable Changelog**
@@ -401,8 +401,8 @@ Same as the Delete action in the main list, but available directly in the edit f
 5. Click **Create Product**
 6. Click **Actions** → **Download Public Key**
 7. Add the public key file to your WordPress plugin at `includes/license-key.pem`
-8. Next: Create a [Generator]({{< ref "/../../docs/docs/admin-portal/generators" >}}) for this product
-9. Next: Create [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) for testing
+8. Next: Create a [Generator]({{< ref "/../../docs/admin-portal/generators" >}}) for this product
+9. Next: Create [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) for testing
 
 ---
 
@@ -425,7 +425,7 @@ Same as the Delete action in the main list, but available directly in the edit f
    - ☐ Enable Changelog (using Envato's changelog)
 4. Add features if needed (or keep empty to start)
 5. Click **Create Product**
-6. Go to [Settings > Envato]({{< ref "/../../docs/docs/admin-portal/settings" >}}) to configure API credentials
+6. Go to [Settings > Envato]({{< ref "/../../docs/admin-portal/settings" >}}) to configure API credentials
 7. System will automatically sync purchases and generate licenses
 
 ---
@@ -478,7 +478,7 @@ Same as the Delete action in the main list, but available directly in the edit f
 9. **Critical:** Update your product's source code with the new public key
 10. Release an emergency update to all customers
 11. Notify customers that offline licenses must be regenerated
-12. Monitor [Telemetry]({{< ref "/../../docs/docs/admin-portal/telemetry" >}}) and [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) for verification failures
+12. Monitor [Telemetry]({{< ref "/../../docs/admin-portal/telemetry" >}}) and [Logs]({{< ref "/../../docs/admin-portal/logs" >}}) for verification failures
 
 **Communication Template (Email to Customers)**
 
@@ -519,7 +519,7 @@ Your Team
    - Revokes all licenses
    - Sends notifications (if configured)
 9. Prepare and release fixed version of your product
-10. Go to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page
+10. Go to [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) page
 11. Bulk select all affected licenses
 12. Click **"Restore"** to reactivate them
 13. OR: Create new licenses for affected customers
@@ -707,7 +707,7 @@ Use the Kill Switch if you need to immediately disable all licenses.
 This depends on your product architecture:
 
 **If using single product with feature flags:**
-1. Go to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page
+1. Go to [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) page
 2. Find the customer's license
 3. Click **Edit**
 4. Update feature flags (e.g., change `tier` from "basic" to "pro")
@@ -770,7 +770,7 @@ If you lose access to your database, you lose the private keys. There is no reco
 
 1. Create a product in `development` environment
 2. Download the public key
-3. Create a [Generator]({{< ref "/../../docs/docs/admin-portal/generators" >}}) for the product
+3. Create a [Generator]({{< ref "/../../docs/admin-portal/generators" >}}) for the product
 4. Generate a few test licenses
 5. Integrate your SDK with the `development` public key
 6. In your code, point SDK to `https://yourdomain.com/api/v1` and use `environment: development`
@@ -824,7 +824,7 @@ If you lose access to your database, you lose the private keys. There is no reco
 - Product may not have cryptographic keys generated yet
 - This can happen if product creation was interrupted
 - Edit the product and click **"Rotate Keys"** to generate new keys
-- If problem persists, check [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) for errors
+- If problem persists, check [Logs]({{< ref "/../../docs/admin-portal/logs" >}}) for errors
 
 ---
 
@@ -832,7 +832,7 @@ If you lose access to your database, you lose the private keys. There is no reco
 
 **Solution:**
 - Features defined on product are templates/defaults only
-- They must be configured in the [Generator]({{< ref "/../../docs/docs/admin-portal/generators" >}}) for the product
+- They must be configured in the [Generator]({{< ref "/../../docs/admin-portal/generators" >}}) for the product
 - Edit the generator and set feature values there
 - Already-generated licenses won't be affected (features are copied at creation time)
 
@@ -850,7 +850,7 @@ If you lose access to your database, you lose the private keys. There is no reco
 ### Problem: Image upload succeeds but image doesn't appear
 
 **Solution:**
-- Check [Settings > S3]({{< ref "/../../docs/docs/admin-portal/settings" >}}) configuration is correct
+- Check [Settings > S3]({{< ref "/../../docs/admin-portal/settings" >}}) configuration is correct
 - Verify S3 bucket has public read permissions (or signed URLs are enabled)
 - Clear browser cache (Ctrl+F5 / Cmd+Shift+R)
 - Check browser console for CDN/CORS errors
@@ -863,7 +863,7 @@ If you lose access to your database, you lose the private keys. There is no reco
 **Solution:**
 - System prevents accidental deletion of products with licenses
 - You must first delete or revoke all licenses for the product
-- Go to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page
+- Go to [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) page
 - Filter by product
 - Bulk delete or revoke licenses
 - Then try deleting product again
@@ -886,21 +886,21 @@ If you lose access to your database, you lose the private keys. There is no reco
 
 **Solution:**
 - Kill Switch is processed by background job (may take 30-60 seconds)
-- Check [Background Jobs]({{< ref "/../../docs/docs/admin-portal/background-jobs" >}}) page for job status
+- Check [Background Jobs]({{< ref "/../../docs/admin-portal/background-jobs" >}}) page for job status
 - Refresh license list after 1-2 minutes
-- If still not working, check [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) for errors
+- If still not working, check [Logs]({{< ref "/../../docs/admin-portal/logs" >}}) for errors
 - Manual workaround: Bulk select licenses and click "Revoke" directly
 
 ---
 
 ## Related Documentation
 
-- **[License Generators]({{< ref "/../../docs/docs/admin-portal/generators" >}})** — Configure how licenses are created for this product
-- **[License Keys]({{< ref "/../../docs/docs/admin-portal/licenses" >}})** — View and manage licenses generated for this product
-- **[Downloadables]({{< ref "/../../docs/docs/admin-portal/downloadables" >}})** — Add product files/updates that customers can download
-- **[Settings > S3]({{< ref "/../../docs/docs/admin-portal/settings" >}})** — Configure image storage for product logos
-- **[Settings > Envato]({{< ref "/../../docs/docs/admin-portal/settings" >}})** — Set up Envato marketplace integration
-- **[Telemetry]({{< ref "/../../docs/docs/admin-portal/telemetry" >}})** — Monitor product usage and license verification patterns
+- **[License Generators]({{< ref "/../../docs/admin-portal/generators" >}})** — Configure how licenses are created for this product
+- **[License Keys]({{< ref "/../../docs/admin-portal/licenses" >}})** — View and manage licenses generated for this product
+- **[Downloadables]({{< ref "/../../docs/admin-portal/downloadables" >}})** — Add product files/updates that customers can download
+- **[Settings > S3]({{< ref "/../../docs/admin-portal/settings" >}})** — Configure image storage for product logos
+- **[Settings > Envato]({{< ref "/../../docs/admin-portal/settings" >}})** — Set up Envato marketplace integration
+- **[Telemetry]({{< ref "/../../docs/admin-portal/telemetry" >}})** — Monitor product usage and license verification patterns
 
 ---
 
@@ -918,8 +918,8 @@ If you lose access to your database, you lose the private keys. There is no reco
 
 ## Related Pages
 
-- [Dashboard]({{< ref "/../../docs/docs/admin-portal/dashboard" >}}) - Main overview and KPIs
-- [License Generators]({{< ref "/../../docs/docs/admin-portal/generators" >}}) - Configure license creation rules
-- [License Keys]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) - View and manage all licenses
-- [Settings]({{< ref "/../../docs/docs/admin-portal/settings" >}}) - System-wide configuration
-- [Profile]({{< ref "/../../docs/docs/admin-portal/profile" >}}) - Your admin profile and security settings
+- [Dashboard]({{< ref "/../../docs/admin-portal/dashboard" >}}) - Main overview and KPIs
+- [License Generators]({{< ref "/../../docs/admin-portal/generators" >}}) - Configure license creation rules
+- [License Keys]({{< ref "/../../docs/admin-portal/licenses" >}}) - View and manage all licenses
+- [Settings]({{< ref "/../../docs/admin-portal/settings" >}}) - System-wide configuration
+- [Profile]({{< ref "/../../docs/admin-portal/profile" >}}) - Your admin profile and security settings
