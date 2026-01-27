@@ -1021,12 +1021,12 @@ curl -X PUT https://yourdomain.com/api/v1/settings/logging \
 
 ## Related Settings
 
-- [Settings Overview]({{< ref "/docs/content/docs/admin-portal/settings/_index" >}}) - All settings categories
-- [Abuse Detection]({{< ref "/docs/content/docs/admin-portal/abuse-detection" >}}) - Automatic abuse monitoring
-- [Security Settings]({{< ref "/docs/content/docs/admin-portal/security" >}}) - Additional security controls
-- [Webhooks]({{< ref "/docs/content/docs/admin-portal/webhooks" >}}) - Real-time event notifications
-- [Email Settings]({{< ref "/docs/content/docs/admin-portal/email" >}}) - Notification configuration
-- [Storage Settings]({{< ref "/docs/content/docs/admin-portal/storage" >}}) - Log retention and archival
+- [Settings Overview]({{< ref "/docs/docs/content/docs/admin-portal/settings/_index" >}}) - All settings categories
+- [Abuse Detection]({{< ref "/docs/docs/content/docs/admin-portal/abuse-detection" >}}) - Automatic abuse monitoring
+- [Security Settings]({{< ref "/docs/docs/content/docs/admin-portal/security" >}}) - Additional security controls
+- [Webhooks]({{< ref "/docs/docs/content/docs/admin-portal/webhooks" >}}) - Real-time event notifications
+- [Email Settings]({{< ref "/docs/docs/content/docs/admin-portal/email" >}}) - Notification configuration
+- [Storage Settings]({{< ref "/docs/docs/content/docs/admin-portal/storage" >}}) - Log retention and archival
 
 ---
 

@@ -44,12 +44,12 @@ Control the volume and type of emails you receive from the platform:
 - **Not Receiving Emails**: 
     - Ensure **Email Notifications** is toggled ON.
     - Check your spam folder for messages from the platform's domain.
-    - Verify your account email address on the [Profile]({{< ref "/docs/content/docs/client-portal/profile" >}}) page.
+    - Verify your account email address on the [Profile]({{< ref "/docs/docs/content/docs/client-portal/profile" >}}) page.
 - **Settings Not Saving**: If you encounter an error while saving, ensure your internet connection is stable and refresh the page before trying again.
 
 ---
 
 ## Related Pages
 
-- [Profile]({{< ref "/docs/content/docs/client-portal/profile" >}}) - Update your name and manage your account password.
-- [Dashboard]({{< ref "/docs/content/docs/client-portal/dashboard" >}}) - View the results of your personalized timezone and theme settings.
+- [Profile]({{< ref "/docs/docs/content/docs/client-portal/profile" >}}) - Update your name and manage your account password.
+- [Dashboard]({{< ref "/docs/docs/content/docs/client-portal/dashboard" >}}) - View the results of your personalized timezone and theme settings.

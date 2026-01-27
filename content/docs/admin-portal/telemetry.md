@@ -75,7 +75,7 @@ Click **"View Raw Data"** to access the granular telemetry table:
 3. Click **View Raw Data**.
 4. Filter by the most recent "Flagged" records.
 5. Inspect the "Context" or "Message" field.
-6. **Action:** If a single license key is responsible for 1,000s of flagged records, go to [License Keys]({{< ref "/docs/content/docs/admin-portal/licenses" >}}) and **Revoke** that key immediately.
+6. **Action:** If a single license key is responsible for 1,000s of flagged records, go to [License Keys]({{< ref "/docs/docs/content/docs/admin-portal/licenses" >}}) and **Revoke** that key immediately.
 
 ### Workflow 2: Monitoring a New Version Launch
 
@@ -105,17 +105,17 @@ To ensure forensic completeness, the Telemetry service follows these strict rule
 
 **Solution:**
 1. Verify the **Environment** toggle. Data sent to a Production API key will not show up in the Staging dashboard.
-2. Check your [API Logs]({{< ref "/docs/content/docs/admin-portal/logs" >}}) for failed `/api/v1/telemetry` calls.
+2. Check your [API Logs]({{< ref "/docs/docs/content/docs/admin-portal/logs" >}}) for failed `/api/v1/telemetry` calls.
 3. Verify your SDK configuration includes the correct API Key.
 
 ---
 
 ## Related Pages
 
-* [Dashboard]({{< ref "/docs/content/docs/admin-portal/dashboard" >}}) — View simplified telemetry widgets
-* [License Keys]({{< ref "/docs/content/docs/admin-portal/licenses" >}}) — Link telemetry back to specific users
-* [Data Retention Policies]({{< ref "/docs/content/docs/admin-portal/retention-policies" >}}) — Configure when old telemetry is purged
-* [System Logs]({{< ref "/docs/content/docs/admin-portal/logs" >}}) — Audit the telemetry receiving process
+* [Dashboard]({{< ref "/docs/docs/content/docs/admin-portal/dashboard" >}}) — View simplified telemetry widgets
+* [License Keys]({{< ref "/docs/docs/content/docs/admin-portal/licenses" >}}) — Link telemetry back to specific users
+* [Data Retention Policies]({{< ref "/docs/docs/content/docs/admin-portal/retention-policies" >}}) — Configure when old telemetry is purged
+* [System Logs]({{< ref "/docs/docs/content/docs/admin-portal/logs" >}}) — Audit the telemetry receiving process
 
 ---
 

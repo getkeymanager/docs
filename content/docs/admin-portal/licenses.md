@@ -713,16 +713,16 @@ When creating or editing a license:
 ## Integration with Other Pages
 
 **Related Admin Pages:**
-* **[Generators]({{< ref "/docs/content/docs/admin-portal/generators" >}})** — Create licenses in bulk
-* **[Products]({{< ref "/docs/content/docs/admin-portal/products" >}})** — Configure products before generating licenses
-* **[Customers]({{< ref "/docs/content/docs/admin-portal/customers" >}})** — Manage customer accounts
-* **[Activations]({{< ref "/docs/content/docs/admin-portal/activations" >}})** — View device-level activation history
-* **[Contracts]({{< ref "/docs/content/docs/admin-portal/contracts" >}})** — Automate license assignment via contracts
-* **[Background Jobs]({{< ref "/docs/content/docs/admin-portal/background-jobs" >}})** — Monitor bulk operations
+* **[Generators]({{< ref "/docs/docs/content/docs/admin-portal/generators" >}})** — Create licenses in bulk
+* **[Products]({{< ref "/docs/docs/content/docs/admin-portal/products" >}})** — Configure products before generating licenses
+* **[Customers]({{< ref "/docs/docs/content/docs/admin-portal/customers" >}})** — Manage customer accounts
+* **[Activations]({{< ref "/docs/docs/content/docs/admin-portal/activations" >}})** — View device-level activation history
+* **[Contracts]({{< ref "/docs/docs/content/docs/admin-portal/contracts" >}})** — Automate license assignment via contracts
+* **[Background Jobs]({{< ref "/docs/docs/content/docs/admin-portal/background-jobs" >}})** — Monitor bulk operations
 
 **Related Settings:**
-* **[License Settings]({{< ref "/docs/content/docs/admin-portal/settings/license" >}})** — Global license defaults and grace periods
-* **[Abuse Detection]({{< ref "/docs/content/docs/admin-portal/settings/abuse-detection" >}})** — Configure automatic suspension rules
+* **[License Settings]({{< ref "/docs/docs/content/docs/admin-portal/settings/license" >}})** — Global license defaults and grace periods
+* **[Abuse Detection]({{< ref "/docs/docs/content/docs/admin-portal/settings/abuse-detection" >}})** — Configure automatic suspension rules
 
 ---
 

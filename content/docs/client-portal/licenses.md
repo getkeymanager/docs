@@ -58,13 +58,13 @@ Easily locate specific keys or products using:
 ## Troubleshooting
 
 - **License Key Not Showing**: Some high-security keys may remain masked until you click the "Copy" icon. If the key is entirely missing, contact your administrator.
-- **Activation Limit Error**: If you see a "Limit Reached" error in the Validation Status, navigate to the [Activations]({{< ref "/docs/content/docs/client-portal/activations" >}}) page to deactivate an old device.
+- **Activation Limit Error**: If you see a "Limit Reached" error in the Validation Status, navigate to the [Activations]({{< ref "/docs/docs/content/docs/client-portal/activations" >}}) page to deactivate an old device.
 - **Red Expiry Date**: This indicates the license has already expired and the software will no longer authenticate. You must renew your license to restore functionality.
 
 ---
 
 ## Related Pages
 
-- [Dashboard]({{< ref "/docs/content/docs/client-portal/dashboard" >}}) - Overview of recent license activity.
-- [Activations]({{< ref "/docs/content/docs/client-portal/activations" >}}) - Manage individual device registrations.
-- [Downloads]({{< ref "/docs/content/docs/client-portal/downloads" >}}) - Access software restricted by your licenses.
+- [Dashboard]({{< ref "/docs/docs/content/docs/client-portal/dashboard" >}}) - Overview of recent license activity.
+- [Activations]({{< ref "/docs/docs/content/docs/client-portal/activations" >}}) - Manage individual device registrations.
+- [Downloads]({{< ref "/docs/docs/content/docs/client-portal/downloads" >}}) - Access software restricted by your licenses.
