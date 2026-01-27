@@ -60,7 +60,7 @@ Clicking the **View** icon (👁️) opens a comprehensive breakdown of the spec
 
 If a delivery fails, the system provides several ways to recover:
 
-*   **Automatic Retries**: Based on your [system settings]({{< ref "/../docs/docs/admin-portal/settings" >}}), the platform will automatically attempt to re-send the data with exponential backoff.
+*   **Automatic Retries**: Based on your [system settings]({{< ref "/../../docs/docs/admin-portal/settings" >}}), the platform will automatically attempt to re-send the data with exponential backoff.
 *   **Manual Retry**: Click the **Retry** icon (🔄) in the Actions column to trigger an immediate re-delivery attempt. This is useful after you've fixed a bug on your receiving endpoint.
 
 ---
@@ -96,7 +96,7 @@ If a delivery fails, the system provides several ways to recover:
 
 *   **Timeout**: The platform waits for a maximum of 10 seconds for your server to respond.
 *   **Retry Policy**: Default is 3 automatic retries over a 30-minute period (configurable).
-*   **Data Retention**: Delivery logs are automatically purged after 30 days to optimize database performance. See [Retention Policies]({{< ref "/../docs/docs/admin-portal/retention-policies" >}}).
+*   **Data Retention**: Delivery logs are automatically purged after 30 days to optimize database performance. See [Retention Policies]({{< ref "/../../docs/docs/admin-portal/retention-policies" >}}).
 *   **Signatures**: Every delivery includes an `X-Webhook-Signature` header computed using your Webhook Secret.
 
 ---
@@ -115,9 +115,9 @@ If a delivery fails, the system provides several ways to recover:
 
 ## Related Pages
 
-*   [Webhooks]({{< ref "/../docs/docs/admin-portal/webhooks" >}}) — Create and manage your webhook configurations.
-*   [Data Retention Policies]({{< ref "/../docs/docs/admin-portal/retention-policies" >}}) — Configure how long these logs are kept.
-*   [Logs]({{< ref "/../docs/docs/admin-portal/logs" >}}) — View high-level system activity including webhook job starts.
+*   [Webhooks]({{< ref "/../../docs/docs/admin-portal/webhooks" >}}) — Create and manage your webhook configurations.
+*   [Data Retention Policies]({{< ref "/../../docs/docs/admin-portal/retention-policies" >}}) — Configure how long these logs are kept.
+*   [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) — View high-level system activity including webhook job starts.
 
 ---
 

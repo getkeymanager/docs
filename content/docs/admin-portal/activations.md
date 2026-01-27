@@ -62,7 +62,7 @@ The main table displays all activations across all licenses and products with th
 **License Key**
 - Partial license key for identification
 - Click to copy full key to clipboard (if implemented)
-- Links to [License Details]({{< ref "/../docs/docs/admin-portal/licenses" >}}) page (if clickable)
+- Links to [License Details]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page (if clickable)
 
 **Product**
 - Name of the product this activation belongs to
@@ -233,7 +233,7 @@ Page number persists in URL (`?page=2`) so you can bookmark specific pages.
 5. If invalid: Returns error (license revoked, limit reached, etc.)
 
 **Offline Activation** (less common)
-1. Customer downloads offline license file from [Client Portal]({{< ref "/../docs/docs/admin-portal/../client-portal/licenses" >}})
+1. Customer downloads offline license file from [Client Portal]({{< ref "/../../docs/docs/admin-portal/../client-portal/licenses" >}})
 2. Customer places file in software directory
 3. Software validates cryptographic signature locally (no server call)
 4. Activation record is created only when software first verifies online
@@ -245,7 +245,7 @@ Page number persists in URL (`?page=2`) so you can bookmark specific pages.
 
 ### Activation Limits
 
-Licenses can have **activation limits** (configured in [Generators]({{< ref "/../docs/docs/admin-portal/generators" >}})):
+Licenses can have **activation limits** (configured in [Generators]({{< ref "/../../docs/docs/admin-portal/generators" >}})):
 - **Limit = 1:** License can only be activated on one device (most common for single-user licenses)
 - **Limit = 3:** License can be activated on up to 3 devices simultaneously
 - **Limit = Unlimited:** No limit (common for enterprise or site licenses)
@@ -254,12 +254,12 @@ Licenses can have **activation limits** (configured in [Generators]({{< ref "/..
 - Activation attempts fail with error: "Activation limit reached"
 - Customer must deactivate an existing device to activate a new one
 - Deactivation can be done by:
-  - Customer via [Client Portal]({{< ref "/../docs/docs/admin-portal/../client-portal/activations" >}})
+  - Customer via [Client Portal]({{< ref "/../../docs/docs/admin-portal/../client-portal/activations" >}})
   - Admin via this page (manual intervention)
   - Software calling `/api/v1/licenses/deactivate` endpoint
 
 **Checking Current Usage:**
-1. Go to [Licenses]({{< ref "/../docs/docs/admin-portal/licenses" >}}) page
+1. Go to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page
 2. Find the license
 3. View **Activations** column: "2 / 3" (2 active out of 3 allowed)
 
@@ -330,7 +330,7 @@ Licenses can have **activation limits** (configured in [Generators]({{< ref "/..
 - **Activation limit exceeded** (if limit is set, it may be being circumvented)
 
 **Actions:**
-1. Go to [Licenses]({{< ref "/../docs/docs/admin-portal/licenses" >}}) page
+1. Go to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page
 2. Find the license
 3. Click **Actions** → **Revoke License** to immediately disable it
 4. Contact customer to investigate (they may have legitimate reason, e.g., team license)
@@ -357,7 +357,7 @@ Licenses can have **activation limits** (configured in [Generators]({{< ref "/..
 6. Optional: Email customer to inform them
 
 **Alternative:** Set up automatic deactivation policy:
-- Go to [Settings > Retention Policies]({{< ref "/../docs/docs/admin-portal/retention-policies" >}})
+- Go to [Settings > Retention Policies]({{< ref "/../../docs/docs/admin-portal/retention-policies" >}})
 - Configure: "Auto-deactivate devices inactive for 60+ days"
 - System will handle this automatically
 
@@ -370,7 +370,7 @@ Licenses can have **activation limits** (configured in [Generators]({{< ref "/..
 **Investigation Steps:**
 
 1. **Check License Status:**
-   - Go to [Licenses]({{< ref "/../docs/docs/admin-portal/licenses" >}}) page
+   - Go to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page
    - Search for customer's license key
    - Verify status is `active` (not `suspended`, `expired`, or `revoked`)
 
@@ -391,7 +391,7 @@ Licenses can have **activation limits** (configured in [Generators]({{< ref "/..
    - Customer may be using staging license in production build (or vice versa)
 
 5. **Check Logs:**
-   - Go to [Logs]({{< ref "/../docs/docs/admin-portal/logs" >}}) page
+   - Go to [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) page
    - Filter by license key or API endpoint: `/api/v1/licenses/activate`
    - Review error messages for specific failure reason
 
@@ -416,7 +416,7 @@ Licenses can have **activation limits** (configured in [Generators]({{< ref "/..
    - This frees customer to activate on new license
 
 2. **Verify New License:**
-   - Go to [Licenses]({{< ref "/../docs/docs/admin-portal/licenses" >}}) page
+   - Go to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page
    - Confirm new "Pro" license is created and assigned to customer
    - Verify status is `active`
 
@@ -426,7 +426,7 @@ Licenses can have **activation limits** (configured in [Generators]({{< ref "/..
    - Customer activates with new key
 
 4. **Revoke Old License (Optional):**
-   - Go to [Licenses]({{< ref "/../docs/docs/admin-portal/licenses" >}}) page
+   - Go to [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page
    - Find old license
    - Click **Revoke** to prevent future use
    - Old activations remain in history for audit purposes
@@ -463,7 +463,7 @@ Licenses can have **activation limits** (configured in [Generators]({{< ref "/..
 
 ### Audit Trail
 
-Every activation and deactivation is logged in the [Audit Trail]({{< ref "/../docs/docs/admin-portal/logs" >}}):
+Every activation and deactivation is logged in the [Audit Trail]({{< ref "/../../docs/docs/admin-portal/logs" >}}):
 - **Who** performed the action (admin user or system/customer)
 - **When** it occurred (timestamp)
 - **What** changed (before/after snapshot)
@@ -484,13 +484,13 @@ This is immutable and cannot be deleted. Useful for:
 1. **Monitor "Last Verified" timestamps regularly** — Inactive devices (30+ days) can be safely deactivated to free slots
 2. **Document deactivation reasons** — Use internal notes or ticket references
 3. **Check patterns before revoking licenses** — Some legitimate uses look like abuse (offices, families)
-4. **Set up automated policies** — Use [Retention Policies]({{< ref "/../docs/docs/admin-portal/retention-policies" >}}) for auto-deactivation of old devices
+4. **Set up automated policies** — Use [Retention Policies]({{< ref "/../../docs/docs/admin-portal/retention-policies" >}}) for auto-deactivation of old devices
 5. **Communicate with customers before deactivating** — Unexpected deactivations damage trust
 6. **Use geographic data wisely** — VPNs and travel can cause false positives
 7. **Keep activation limits reasonable** — Too strict causes support burden; too loose enables abuse
 8. **Regularly audit high-activation licenses** — Focus on licenses approaching limits
 9. **Preserve activation history** — Never delete old activation records (keep for audits)
-10. **Cross-reference with telemetry** — Go to [Telemetry]({{< ref "/../docs/docs/admin-portal/telemetry" >}}) page to see actual usage patterns
+10. **Cross-reference with telemetry** — Go to [Telemetry]({{< ref "/../../docs/docs/admin-portal/telemetry" >}}) page to see actual usage patterns
 
 ---
 
@@ -500,7 +500,7 @@ This is immutable and cannot be deleted. Useful for:
 
 **Solution:**
 - Check activation **Status**: It may be marked `inactive` (deactivated)
-- Check parent license **Status** in [Licenses]({{< ref "/../docs/docs/admin-portal/licenses" >}}) page: May be `expired`, `suspended`, or `revoked`
+- Check parent license **Status** in [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page: May be `expired`, `suspended`, or `revoked`
 - Check "Last Verified" timestamp: If "Never," customer may have offline license file that's outdated
 - Check environment match: Activation may be in `staging` but customer is using `production` build
 - Ask customer to try activating again (may resolve transient issue)
@@ -512,9 +512,9 @@ This is immutable and cannot be deleted. Useful for:
 **Solution:**
 - Refresh the page (activation may have been deactivated recently but cached)
 - Check if activation is marked `inactive` but still counted (rare bug)
-- Verify generator configuration: Activation limit may be set to 1 (check [Generators]({{< ref "/../docs/docs/admin-portal/generators" >}}) page)
+- Verify generator configuration: Activation limit may be set to 1 (check [Generators]({{< ref "/../../docs/docs/admin-portal/generators" >}}) page)
 - Review license status: Suspended licenses may block new activations
-- Check [Logs]({{< ref "/../docs/docs/admin-portal/logs" >}}) for detailed error message from last activation attempt
+- Check [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) for detailed error message from last activation attempt
 
 ---
 
@@ -525,7 +525,7 @@ This is immutable and cannot be deleted. Useful for:
 - Customer may be using offline license file (doesn't verify online)
 - Network issues preventing API calls (firewall, proxy, no internet)
 - SDK misconfiguration (not calling verify endpoint)
-- Check [Telemetry]({{< ref "/../docs/docs/admin-portal/telemetry" >}}) page: If telemetry is arriving, license is in use even if not verifying
+- Check [Telemetry]({{< ref "/../../docs/docs/admin-portal/telemetry" >}}) page: If telemetry is arriving, license is in use even if not verifying
 
 ---
 
@@ -533,7 +533,7 @@ This is immutable and cannot be deleted. Useful for:
 
 **Solution:**
 - Refresh page and try again (transient error)
-- Check [Logs]({{< ref "/../docs/docs/admin-portal/logs" >}}) for specific error message
+- Check [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) for specific error message
 - Verify you have admin permissions for deactivation
 - Activation may already be deactivated (status = `inactive`)
 - Check if license has been deleted (activations for deleted licenses can't be deactivated)
@@ -569,7 +569,7 @@ This is immutable and cannot be deleted. Useful for:
 
 ### Can customers deactivate their own devices?
 
-**Yes.** Customers can deactivate devices from the [Client Portal > Activations]({{< ref "/../docs/docs/admin-portal/../client-portal/activations" >}}) page. This frees up activation slots without admin intervention.
+**Yes.** Customers can deactivate devices from the [Client Portal > Activations]({{< ref "/../../docs/docs/admin-portal/../client-portal/activations" >}}) page. This frees up activation slots without admin intervention.
 
 However, admins have **additional powers:**
 - Can deactivate any device (customers can only deactivate their own)
@@ -580,7 +580,7 @@ However, admins have **additional powers:**
 
 ### What happens to activations when a license is revoked?
 
-When you revoke a license (via [Licenses]({{< ref "/../docs/docs/admin-portal/licenses" >}}) page):
+When you revoke a license (via [Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page):
 - All activation records remain in the database (for audit purposes)
 - Activation **status stays as `active`** but license status is `revoked`
 - Next verification attempt will fail (license is revoked)
@@ -620,7 +620,7 @@ Reasons:
 
 ### Can I see which admin deactivated a device?
 
-**Yes.** Go to [Logs > Audit Trail]({{< ref "/../docs/docs/admin-portal/logs" >}}) and filter by:
+**Yes.** Go to [Logs > Audit Trail]({{< ref "/../../docs/docs/admin-portal/logs" >}}) and filter by:
 - Action: "Deactivation"
 - Resource: Activation UUID
 
@@ -665,7 +665,7 @@ The old deactivated record remains for audit purposes.
 - Other devices using same license continue working
 - Customer can reactivate this device (creates new activation)
 
-**Revoke ([Licenses]({{< ref "/../docs/docs/admin-portal/licenses" >}}) page):**
+**Revoke ([Licenses]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) page):**
 - Affects **the entire license**
 - All activations immediately fail on next verification
 - No devices can use this license anymore
@@ -678,11 +678,11 @@ The old deactivated record remains for audit purposes.
 
 ## Related Documentation
 
-- **[License Keys]({{< ref "/../docs/docs/admin-portal/licenses" >}})** — Manage the licenses that these activations belong to
-- **[Customers]({{< ref "/../docs/docs/admin-portal/customers" >}})** — View customer details and their licenses
-- **[Telemetry]({{< ref "/../docs/docs/admin-portal/telemetry" >}})** — See actual usage patterns beyond just activation
-- **[Logs]({{< ref "/../docs/docs/admin-portal/logs" >}})** — Review activation/deactivation events in detail
-- **[Settings > Retention Policies]({{< ref "/../docs/docs/admin-portal/retention-policies" >}})** — Configure auto-deactivation rules
+- **[License Keys]({{< ref "/../../docs/docs/admin-portal/licenses" >}})** — Manage the licenses that these activations belong to
+- **[Customers]({{< ref "/../../docs/docs/admin-portal/customers" >}})** — View customer details and their licenses
+- **[Telemetry]({{< ref "/../../docs/docs/admin-portal/telemetry" >}})** — See actual usage patterns beyond just activation
+- **[Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}})** — Review activation/deactivation events in detail
+- **[Settings > Retention Policies]({{< ref "/../../docs/docs/admin-portal/retention-policies" >}})** — Configure auto-deactivation rules
 
 ---
 
@@ -700,8 +700,8 @@ The old deactivated record remains for audit purposes.
 
 ## Related Pages
 
-- [Dashboard]({{< ref "/../docs/docs/admin-portal/dashboard" >}}) - Main overview and KPIs
-- [License Keys]({{< ref "/../docs/docs/admin-portal/licenses" >}}) - Manage licenses
-- [Customers]({{< ref "/../docs/docs/admin-portal/customers" >}}) - Customer management
-- [Settings]({{< ref "/../docs/docs/admin-portal/settings" >}}) - System configuration
-- [Profile]({{< ref "/../docs/docs/admin-portal/profile" >}}) - Your admin profile and security settings
+- [Dashboard]({{< ref "/../../docs/docs/admin-portal/dashboard" >}}) - Main overview and KPIs
+- [License Keys]({{< ref "/../../docs/docs/admin-portal/licenses" >}}) - Manage licenses
+- [Customers]({{< ref "/../../docs/docs/admin-portal/customers" >}}) - Customer management
+- [Settings]({{< ref "/../../docs/docs/admin-portal/settings" >}}) - System configuration
+- [Profile]({{< ref "/../../docs/docs/admin-portal/profile" >}}) - Your admin profile and security settings

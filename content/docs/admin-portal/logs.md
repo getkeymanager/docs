@@ -124,7 +124,7 @@ Click the **Sort** button (⊕) to customize sort order:
 4. Review actions performed
 5. Check timestamps for unusual times
 6. If suspicious:
-   - Go to [Admin Users]({{< ref "/../docs/docs/admin-portal/admins" >}}) and deactivate the account
+   - Go to [Admin Users]({{< ref "/../../docs/docs/admin-portal/admins" >}}) and deactivate the account
    - Document the incident
    - Review password reset logs
 
@@ -160,13 +160,13 @@ Click the **Sort** button (⊕) to customize sort order:
    - "High memory usage"
    - "Job queue backlog"
 4. Note the timestamps
-5. Cross-reference with [Telemetry]({{< ref "/../docs/docs/admin-portal/telemetry" >}}) if available
+5. Cross-reference with [Telemetry]({{< ref "/../../docs/docs/admin-portal/telemetry" >}}) if available
 
 ---
 
 ## Log Retention
 
-Logs are **automatically purged** based on [retention policies]({{< ref "/../docs/docs/admin-portal/retention-policies" >}}).
+Logs are **automatically purged** based on [retention policies]({{< ref "/../../docs/docs/admin-portal/retention-policies" >}}).
 
 ### Default Retention
 - **System Logs:** 3 months (configurable)
@@ -175,14 +175,14 @@ Logs are **automatically purged** based on [retention policies]({{< ref "/../doc
 
 ### To Change Retention
 
-1. Go to [Settings → Retention Policies]({{< ref "/../docs/docs/admin-portal/settings" >}})
+1. Go to [Settings → Retention Policies]({{< ref "/../../docs/docs/admin-portal/settings" >}})
 2. Select **System Logs**
 3. Choose new retention period (1, 3, 6, 9, or 12 months)
 4. Save
 
 ### Note About Audit Trails
 
-For **permanent, immutable records**, see [Audit Trails]({{< ref "/../docs/docs/admin-portal/settings#audit-trails" >}}). These cannot be purged and maintain a complete history of all state-changing actions.
+For **permanent, immutable records**, see [Audit Trails]({{< ref "/../../docs/docs/admin-portal/settings#audit-trails" >}}). These cannot be purged and maintain a complete history of all state-changing actions.
 
 ---
 
@@ -215,8 +215,8 @@ For **permanent, immutable records**, see [Audit Trails]({{< ref "/../docs/docs/
 
 **Solution:**
 - Logs are auto-purged after retention period (default 3 months)
-- Check [retention policy settings]({{< ref "/../docs/docs/admin-portal/retention-policies" >}})
-- If older than retention, check [Audit Trails]({{< ref "/../docs/docs/admin-portal/settings#audit-trails" >}}) instead
+- Check [retention policy settings]({{< ref "/../../docs/docs/admin-portal/retention-policies" >}})
+- If older than retention, check [Audit Trails]({{< ref "/../../docs/docs/admin-portal/settings#audit-trails" >}}) instead
 - Try broader search terms
 
 **Problem:** Log details are truncated in table
@@ -230,11 +230,11 @@ For **permanent, immutable records**, see [Audit Trails]({{< ref "/../docs/docs/
 
 ## Related Pages
 
-* [Admin Users]({{< ref "/../docs/docs/admin-portal/admins" >}}) — Manage who has admin access
-* [Settings → Retention Policies]({{< ref "/../docs/docs/admin-portal/retention-policies" >}}) — Configure how long logs are kept
-* [Settings → Audit Trails]({{< ref "/../docs/docs/admin-portal/settings" >}}) — View immutable activity records
-* [Profile]({{< ref "/../docs/docs/admin-portal/profile" >}}) — Your admin account settings
-* [Telemetry]({{< ref "/../docs/docs/admin-portal/telemetry" >}}) — Usage analytics and piracy detection
+* [Admin Users]({{< ref "/../../docs/docs/admin-portal/admins" >}}) — Manage who has admin access
+* [Settings → Retention Policies]({{< ref "/../../docs/docs/admin-portal/retention-policies" >}}) — Configure how long logs are kept
+* [Settings → Audit Trails]({{< ref "/../../docs/docs/admin-portal/settings" >}}) — View immutable activity records
+* [Profile]({{< ref "/../../docs/docs/admin-portal/profile" >}}) — Your admin account settings
+* [Telemetry]({{< ref "/../../docs/docs/admin-portal/telemetry" >}}) — Usage analytics and piracy detection
 
 ---
 

@@ -119,7 +119,7 @@ Select from a comprehensive list of system events to subscribe to:
 **Problem**: The webhook isn't receiving events.
 *   **Check Status**: Ensure the webhook toggle is set to **Active**.
 *   **Check Environment**: Verify the event is happening in the same **Environment** as the webhook.
-*   **Check Deliveries**: Go to [Webhook Deliveries]({{< ref "/../docs/docs/admin-portal/webhook-deliveries" >}}) to see if there were failed attempts and check the response code.
+*   **Check Deliveries**: Go to [Webhook Deliveries]({{< ref "/../../docs/docs/admin-portal/webhook-deliveries" >}}) to see if there were failed attempts and check the response code.
 
 **Problem**: My server says the signature is invalid.
 *   **Secret Mismatch**: Ensure you are using the correct **Webhook Secret** for that specific webhook.
@@ -129,9 +129,9 @@ Select from a comprehensive list of system events to subscribe to:
 
 ## Related Pages
 
-*   [Webhook Deliveries]({{< ref "/../docs/docs/admin-portal/webhook-deliveries" >}}) — View delivery logs and retry failures.
-*   [Settings]({{< ref "/../docs/docs/admin-portal/settings" >}}) — Configure default webhook retry policies.
-*   [API Documentation]({{< ref "/../docs/docs/admin-portal/../api" >}}) — Details on the webhook payload structure.
+*   [Webhook Deliveries]({{< ref "/../../docs/docs/admin-portal/webhook-deliveries" >}}) — View delivery logs and retry failures.
+*   [Settings]({{< ref "/../../docs/docs/admin-portal/settings" >}}) — Configure default webhook retry policies.
+*   [API Documentation]({{< ref "/../../docs/docs/admin-portal/../api" >}}) — Details on the webhook payload structure.
 
 ---
 

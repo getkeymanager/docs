@@ -678,10 +678,10 @@ Changes take effect immediately. The next nightly cleanup job (02:00 UTC) will a
 
 ## Related Settings
 
-- [Settings Overview]({{< ref "/../docs/docs/admin-portal/settings/_index" >}}) - All settings tabs
-- [Logging Settings]({{< ref "/../docs/docs/admin-portal/logging" >}}) - General system logging configuration
-- [Storage Settings]({{< ref "/../docs/docs/admin-portal/storage" >}}) - Overall storage management
-- [Telemetry Settings]({{< ref "/../docs/docs/admin-portal/telemetry" >}}) - Event tracking and analytics
+- [Settings Overview]({{< ref "/../../docs/docs/admin-portal/settings/_index" >}}) - All settings tabs
+- [Logging Settings]({{< ref "/../../docs/docs/admin-portal/logging" >}}) - General system logging configuration
+- [Storage Settings]({{< ref "/../../docs/docs/admin-portal/storage" >}}) - Overall storage management
+- [Telemetry Settings]({{< ref "/../../docs/docs/admin-portal/telemetry" >}}) - Event tracking and analytics
 
 ---
 

@@ -182,7 +182,7 @@ When 2FA is enabled, login requires two steps:
 - Update if company changes
 
 **Monitor Activity:**
-- Go to [Logs]({{< ref "/../docs/docs/admin-portal/logs" >}}) to check your activity
+- Go to [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) to check your activity
 - Report suspicious login attempts
 - Check IP addresses in logs for unfamiliar locations
 
@@ -245,8 +245,8 @@ When 2FA is enabled, login requires two steps:
 1. Go to **Profile & Security**
 2. Check password was changed < 90 days ago
 3. Verify 2FA is enabled
-4. Check [Logs]({{< ref "/../docs/docs/admin-portal/logs" >}}) for any unfamiliar login IPs
-5. Review [Admin Users]({{< ref "/../docs/docs/admin-portal/admins" >}}) page for unauthorized accounts
+4. Check [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) for any unfamiliar login IPs
+5. Review [Admin Users]({{< ref "/../../docs/docs/admin-portal/admins" >}}) page for unauthorized accounts
 
 ---
 
@@ -326,10 +326,10 @@ If you need to change your email:
 
 ## Related Pages
 
-* [Admin Users]({{< ref "/../docs/docs/admin-portal/admins" >}}) — View all admin accounts (Super Admin only)
-* [Logs]({{< ref "/../docs/docs/admin-portal/logs" >}}) — Check your account activity
-* [Settings]({{< ref "/../docs/docs/admin-portal/settings" >}}) — System-wide configuration (Super Admin only)
-* [Dashboard]({{< ref "/../docs/docs/admin-portal/dashboard" >}}) — Main overview
+* [Admin Users]({{< ref "/../../docs/docs/admin-portal/admins" >}}) — View all admin accounts (Super Admin only)
+* [Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}}) — Check your account activity
+* [Settings]({{< ref "/../../docs/docs/admin-portal/settings" >}}) — System-wide configuration (Super Admin only)
+* [Dashboard]({{< ref "/../../docs/docs/admin-portal/dashboard" >}}) — Main overview
 
 ---
 

@@ -620,15 +620,15 @@ When creating or editing a generator:
 ## Integration with Other Pages
 
 **Related Admin Pages:**
-* **[Products]({{< ref "/../docs/docs/admin-portal/products" >}})** — Create products before creating generators
-* **[License Keys]({{< ref "/../docs/docs/admin-portal/licenses" >}})** — View licenses created by generators
-* **[Contracts]({{< ref "/../docs/docs/admin-portal/contracts" >}})** — Automate license generation via contracts
-* **[Background Jobs]({{< ref "/../docs/docs/admin-portal/background-jobs" >}})** — Monitor bulk generation progress
-* **[Logs]({{< ref "/../docs/docs/admin-portal/logs" >}})** — Audit generator creation and usage
+* **[Products]({{< ref "/../../docs/docs/admin-portal/products" >}})** — Create products before creating generators
+* **[License Keys]({{< ref "/../../docs/docs/admin-portal/licenses" >}})** — View licenses created by generators
+* **[Contracts]({{< ref "/../../docs/docs/admin-portal/contracts" >}})** — Automate license generation via contracts
+* **[Background Jobs]({{< ref "/../../docs/docs/admin-portal/background-jobs" >}})** — Monitor bulk generation progress
+* **[Logs]({{< ref "/../../docs/docs/admin-portal/logs" >}})** — Audit generator creation and usage
 
 **Related Settings:**
-* **[License Settings]({{< ref "/../docs/docs/admin-portal/settings/license" >}})** — Global license defaults
-* **[General Settings]({{< ref "/../docs/docs/admin-portal/settings/general" >}})** — Environment configuration
+* **[License Settings]({{< ref "/../../docs/docs/admin-portal/settings/license" >}})** — Global license defaults
+* **[General Settings]({{< ref "/../../docs/docs/admin-portal/settings/general" >}})** — Environment configuration
 
 ---
 
@@ -687,9 +687,9 @@ The **License Generators** page is your command center for defining how license 
 * Test generator configs in staging before production
 
 **Next Steps:**
-* Create your first generator: **[Products]({{< ref "/../docs/docs/admin-portal/products" >}})** → **Create Generator**
+* Create your first generator: **[Products]({{< ref "/../../docs/docs/admin-portal/products" >}})** → **Create Generator**
 * Generate licenses: Actions menu → **Generate Licenses**
-* Assign licenses to customers: **[License Keys]({{< ref "/../docs/docs/admin-portal/licenses" >}})** → **Assign**
+* Assign licenses to customers: **[License Keys]({{< ref "/../../docs/docs/admin-portal/licenses" >}})** → **Assign**
 
 ---
 
