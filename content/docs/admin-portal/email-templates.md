@@ -56,14 +56,14 @@ If you are setting up a new environment, click the **Seed Defaults** button in t
 - **Variables Not Replacing**: Ensure your variable names in the content match exactly with the variables defined in the "Variables" section of the form (case-sensitive). Use double curly braces `{{variable_name}}`.
 - **Emails Not Sending**:
     - Verify that the template is **Enabled**.
-    - Check the system's SMTP or Mail Driver configuration in the global [Settings]({{< ref "/../docs/admin-portal/settings" >}}).
-    - Review the [Background Jobs]({{< ref "/../docs/admin-portal/background-jobs" >}}) queue to ensure email delivery tasks are completing successfully.
+    - Check the system's SMTP or Mail Driver configuration in the global [Settings]({{< ref "/docs/admin-portal/settings" >}}).
+    - Review the [Background Jobs]({{< ref "/docs/admin-portal/background-jobs" >}}) queue to ensure email delivery tasks are completing successfully.
 - **Styling Issues**: Different email clients (Gmail, Outlook) render HTML differently. Always use the **Test Email** feature to verify styling before enabling a template for Production.
 
 ---
 
 ## Related Pages
 
-- [Settings]({{< ref "/../docs/admin-portal/settings" >}}) - Configure global mail drivers.
-- [Logs]({{< ref "/../docs/admin-portal/logs" >}}) - Check for email delivery errors.
-- [Background Jobs]({{< ref "/../docs/admin-portal/background-jobs" >}}) - Monitor the mail delivery queue.
+- [Settings]({{< ref "/docs/admin-portal/settings" >}}) - Configure global mail drivers.
+- [Logs]({{< ref "/docs/admin-portal/logs" >}}) - Check for email delivery errors.
+- [Background Jobs]({{< ref "/docs/admin-portal/background-jobs" >}}) - Monitor the mail delivery queue.

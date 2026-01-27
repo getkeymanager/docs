@@ -14,7 +14,7 @@ Welcome to GetKeyManager! This guide will walk you through the essential steps t
 Log in to your dedicated Admin Portal instance. This is where you will manage your products, customers, and license keys.
 
 *   **URL**: `https://app.getkeymanager.com` (or your private instance URL)
-*   **Action**: Familiarize yourself with the [Dashboard]({{< ref "/../docs/admin-portal/dashboard" >}}).
+*   **Action**: Familiarize yourself with the [Dashboard]({{< ref "/docs/admin-portal/dashboard" >}}).
 
 ---
 
@@ -22,7 +22,7 @@ Log in to your dedicated Admin Portal instance. This is where you will manage yo
 
 Before issuing licenses, you need to define a **Product**.
 
-1.  Navigate to [Products]({{< ref "/../docs/admin-portal/products" >}}) in the sidebar.
+1.  Navigate to [Products]({{< ref "/docs/admin-portal/products" >}}) in the sidebar.
 2.  Click **"Create Product"**.
 3.  Fill in the name, slug, and environment (choose `development` for now).
 4.  Enable **Signature Verification** for maximum security.
@@ -33,7 +33,7 @@ Before issuing licenses, you need to define a **Product**.
 
 To communicate with the platform via our SDKs or API, you'll need an API Key.
 
-1.  Go to [API Keys]({{< ref "/../docs/admin-portal/api-keys" >}}).
+1.  Go to [API Keys]({{< ref "/docs/admin-portal/api-keys" >}}).
 2.  Create a new key with the necessary permissions.
 3.  **Securely save the key**—you won't be able to see it again!
 
@@ -43,7 +43,7 @@ To communicate with the platform via our SDKs or API, you'll need an API Key.
 
 Now, let's create a license key for a customer.
 
-1.  Go to [Generators]({{< ref "/../docs/admin-portal/generators" >}}) or directly to [Licenses]({{< ref "/../docs/admin-portal/licenses" >}}).
+1.  Go to [Generators]({{< ref "/docs/admin-portal/generators" >}}) or directly to [Licenses]({{< ref "/docs/admin-portal/licenses" >}}).
 2.  Create a new license for your Product.
 3.  Set the state to `assigned` or `available`.
 
@@ -81,7 +81,7 @@ if ($result['success']) {
 
 Now that you've validated your first license, explore more advanced topics:
 
-*   **[License Lifecycle]({{< ref "/../docs/license-lifecycle" >}})** — Learn about various license states.
-*   **[Hardware Binding]({{< ref "/../docs/usb-offline" >}})** — Lock licenses to specific machines.
-*   **[Webhooks]({{< ref "/../docs/admin-portal/webhooks" >}})** — Automate your workflow with real-time notifications.
-*   **[API Endpoints]({{< ref "/../docs/api/endpoints" >}})** — Explore full automation capabilities.
+*   **[License Lifecycle]({{< ref "/docs/license-lifecycle" >}})** — Learn about various license states.
+*   **[Hardware Binding]({{< ref "/docs/usb-offline" >}})** — Lock licenses to specific machines.
+*   **[Webhooks]({{< ref "/docs/admin-portal/webhooks" >}})** — Automate your workflow with real-time notifications.
+*   **[API Endpoints]({{< ref "/docs/api/endpoints" >}})** — Explore full automation capabilities.

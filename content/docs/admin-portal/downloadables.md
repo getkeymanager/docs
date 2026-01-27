@@ -62,7 +62,7 @@ The **Downloadables** page manages product files and software releases that cust
    - **Architecture** — x64, ARM, Universal, or leave blank
 4. Click **Save**
 5. Files are uploaded to S3 storage
-6. Customers access via [Client Portal > Downloads]({{< ref "/../docs/admin-portal/../client-portal/downloads" >}})
+6. Customers access via [Client Portal > Downloads]({{< ref "/docs/admin-portal/../client-portal/downloads" >}})
 
 ### 4. Edit Downloadable
 
@@ -81,7 +81,7 @@ The **Downloadables** page manages product files and software releases that cust
 
 ## File Storage & Access
 
-**Where Files Are Stored:** AWS S3 or S3-compatible storage (configured in [Settings > S3]({{< ref "/../docs/admin-portal/settings" >}}))
+**Where Files Are Stored:** AWS S3 or S3-compatible storage (configured in [Settings > S3]({{< ref "/docs/admin-portal/settings" >}}))
 
 **File Access Control:**
 * Customers with active licenses can download published files
@@ -113,7 +113,7 @@ The **Downloadables** page manages product files and software releases that cust
    - File 1: `MyApp-2.0.0-Windows-x64.exe` → Type: Installer, Platform: Windows, Arch: x64
    - File 2: `MyApp-2.0.0-macOS-Universal.dmg` → Type: Installer, Platform: macOS, Arch: Universal
 8. Save
-9. Test downloads in [Client Portal]({{< ref "/../docs/admin-portal/../client-portal/downloads" >}}) (admin view)
+9. Test downloads in [Client Portal]({{< ref "/docs/admin-portal/../client-portal/downloads" >}}) (admin view)
 10. Once verified, Edit and change Status to **Published**
 11. Announce release to customers via email
 
@@ -161,11 +161,11 @@ The **Downloadables** page manages product files and software releases that cust
 
 **Problem:** File upload fails
 
-**Solution:** Check file size (may exceed limit). Verify S3 credentials in [Settings > S3]({{< ref "/../docs/admin-portal/settings" >}}). Check internet connection. Try smaller file or compress.
+**Solution:** Check file size (may exceed limit). Verify S3 credentials in [Settings > S3]({{< ref "/docs/admin-portal/settings" >}}). Check internet connection. Try smaller file or compress.
 
 **Problem:** Customers can't download files
 
-**Solution:** Verify status is Published. Check S3 bucket permissions (files must be private, but system needs read access). Verify signed URL generation works. Check [Logs]({{< ref "/../docs/admin-portal/logs" >}}) for errors.
+**Solution:** Verify status is Published. Check S3 bucket permissions (files must be private, but system needs read access). Verify signed URL generation works. Check [Logs]({{< ref "/docs/admin-portal/logs" >}}) for errors.
 
 **Problem:** Old version disappeared from list
 
@@ -175,9 +175,9 @@ The **Downloadables** page manages product files and software releases that cust
 
 ## Related Pages
 
-* [Products]({{< ref "/../docs/admin-portal/products" >}}) — Manage products that downloadables belong to
-* [Client Portal > Downloads]({{< ref "/../docs/admin-portal/../client-portal/downloads" >}}) — Customer view
-* [Settings > S3]({{< ref "/../docs/admin-portal/settings" >}}) — Configure file storage
+* [Products]({{< ref "/docs/admin-portal/products" >}}) — Manage products that downloadables belong to
+* [Client Portal > Downloads]({{< ref "/docs/admin-portal/../client-portal/downloads" >}}) — Customer view
+* [Settings > S3]({{< ref "/docs/admin-portal/settings" >}}) — Configure file storage
 
 ---
 

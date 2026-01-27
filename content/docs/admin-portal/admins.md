@@ -118,7 +118,7 @@ The **Admin Users** page manages platform administrators who have access to the 
 * **Deactivate accounts immediately** when staff leaves
 * **Review admin list quarterly** (remove unused accounts)
 * **Use role-specific accounts** (don't share logins)
-* **Monitor login activity** in [Logs]({{< ref "/../docs/admin-portal/logs" >}})
+* **Monitor login activity** in [Logs]({{< ref "/docs/admin-portal/logs" >}})
 
 ---
 
@@ -169,9 +169,9 @@ The **Admin Users** page manages platform administrators who have access to the 
 
 ## Related Pages
 
-* [Profile]({{< ref "/../docs/admin-portal/profile" >}}) — Your admin account settings
-* [Logs]({{< ref "/../docs/admin-portal/logs" >}}) — View admin activity and login history
-* [Settings]({{< ref "/../docs/admin-portal/settings" >}}) — System configuration (Super Admin only)
+* [Profile]({{< ref "/docs/admin-portal/profile" >}}) — Your admin account settings
+* [Logs]({{< ref "/docs/admin-portal/logs" >}}) — View admin activity and login history
+* [Settings]({{< ref "/docs/admin-portal/settings" >}}) — System configuration (Super Admin only)
 
 ---
 

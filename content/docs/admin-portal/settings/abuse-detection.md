@@ -324,9 +324,9 @@ A: If auto-suspended, they'll receive an error message. Otherwise, flagging is a
 
 ## Related Settings
 
-- [Settings Overview]({{< ref "/../docs/admin-portal/settings/_index" >}}) - All settings tabs
-- [License Settings]({{< ref "/../docs/admin-portal/license" >}}) - Related to license behavior
-- [Logging Settings]({{< ref "/../docs/admin-portal/logging" >}}) - Track abuse events
+- [Settings Overview]({{< ref "/docs/admin-portal/settings/_index" >}}) - All settings tabs
+- [License Settings]({{< ref "/docs/admin-portal/license" >}}) - Related to license behavior
+- [Logging Settings]({{< ref "/docs/admin-portal/logging" >}}) - Track abuse events
 
 ---
 
