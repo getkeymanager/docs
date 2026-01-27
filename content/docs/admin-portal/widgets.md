@@ -5,7 +5,7 @@ weight: 130
 
 
 
-![Admin Portal Dashboard Widgets Screenshot](placeholder-widgets-overview.png)
+![Admin Portal Dashboard Widgets Screenshot](placeholder-widgets-dashboard-overview.png)
 *Screenshot of the Dashboard Widgets management page*
 
 ---
