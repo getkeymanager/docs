@@ -35,8 +35,8 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
-    - name: About
-      pageRef: /about
+    - name: Quick Start
+      pageRef: /quick-start
       weight: 2
     - name: Blog ↗
       url: "/blog"
@@ -53,11 +53,7 @@ menu:
       url: "https://github.com/getkeymanager"
       params:
         icon: github
-    - name: Twitter
-      weight: 7
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
+
 
 params:
   description: A complete comprehensive documentation for GetKeyManager.com.

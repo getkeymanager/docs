@@ -3,16 +3,27 @@ title: GetKeyManager Documentation
 toc: false
 ---
 
+# Welcome to GetKeyManager
 
-Welcome to the GetKeyManager docs! This is a collection of guides and resources to help you get started with GetKeyManager, SDK and the API.
+GetKeyManager is an enterprise-grade, API-first, cryptographically verifiable **License Management Platform**. It provides everything you need to issue, manage, and enforce software licenses with support for offline validation, hardware binding, and explicit license state machines.
 
-## Explore
+## Key Features
+
+*   **[Admin Governance]({{< ref "/docs/admin-portal" >}})** — Complete control over products, generators, and licenses.
+*   **[Multi-Framework SDKs]({{< ref "/docs" >}})** — Native support for Laravel, PHP, CodeIgniter, Node.js, and React.
+*   **[Offline Validation]({{< ref "/docs/usb-offline" >}})** — Cryptographically sign licenses for air-gapped systems.
+*   **[API-First Architecture]({{< ref "/docs/api" >}})** — Fully documented REST API for seamless automation.
+*   **[Customer Self-Service]({{< ref "/docs/client-portal" >}})** — Let users manage their own activations and downloads.
+
+## Explore the Docs
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="blog" title="Blog" icon="user" >}}
+  {{< card link="quick-start" title="Quick Start" icon="bolt" >}}
+  {{< card link="docs/admin-portal" title="Admin Portal" icon="layout" >}}
+  {{< card link="docs/api" title="API Reference" icon="code" >}}
+  {{< card link="docs/license-lifecycle" title="License Lifecycle" icon="refresh-cw" >}}
 {{< /cards >}}
 
-## Documentation
+## Getting Help
 
-For more information, visit [GetKeyManager.com](https://getkeymanager.com).
+For more information, visit [GetKeyManager.com](https://getkeymanager.com) or contact our support team.
