@@ -1053,10 +1053,10 @@ A: Use support@ or a monitored address for better customer experience. Noreply a
 
 ## Related Settings
 
-- [Settings Overview]({{< ref "/content/docs/admin-portal/settings/_index" >}}) - All settings tabs
-- [General Settings]({{< ref "/content/docs/admin-portal/general" >}}) - Configure support email
-- [Webhook Settings]({{< ref "/content/docs/admin-portal/webhooks" >}}) - Email event notifications
-- [Logging Settings]({{< ref "/content/docs/admin-portal/logging" >}}) - Track email sending events
+- [Settings Overview]({{< ref "/docs/content/docs/admin-portal/settings/_index" >}}) - All settings tabs
+- [General Settings]({{< ref "/docs/content/docs/admin-portal/general" >}}) - Configure support email
+- [Webhook Settings]({{< ref "/docs/content/docs/admin-portal/webhooks" >}}) - Email event notifications
+- [Logging Settings]({{< ref "/docs/content/docs/admin-portal/logging" >}}) - Track email sending events
 
 ---
 

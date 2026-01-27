@@ -142,6 +142,6 @@ Protect licenses from misuse with intelligent monitoring and automatic enforceme
 
 ## Related Pages
 
-- [Dashboard]({{< ref "/content/docs/admin-portal/dashboard" >}}) - Main overview
-- [Profile]({{< ref "/content/docs/admin-portal/profile" >}}) - Your admin profile
-- [Logs]({{< ref "/content/docs/admin-portal/logs" >}}) - View system logs
+- [Dashboard]({{< ref "/docs/content/docs/admin-portal/dashboard" >}}) - Main overview
+- [Profile]({{< ref "/docs/content/docs/admin-portal/profile" >}}) - Your admin profile
+- [Logs]({{< ref "/docs/content/docs/admin-portal/logs" >}}) - View system logs

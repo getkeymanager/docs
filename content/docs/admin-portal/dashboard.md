@@ -646,13 +646,13 @@ Direct URL: `https://your-domain.com/admin/dashboard` (requires authentication)
 
 ## Related Pages
 
-- [Widgets]({{< ref "/content/docs/admin-portal/widgets" >}}) - Create and manage custom dashboard widgets
-- [Telemetry]({{< ref "/content/docs/admin-portal/telemetry" >}}) - View detailed telemetry data feeding dashboard charts
-- [Logs]({{< ref "/content/docs/admin-portal/logs" >}}) - Full activity log with advanced filtering (feeds Recent Activity)
-- [Products]({{< ref "/content/docs/admin-portal/products" >}}) - Manage products shown in dashboard charts
-- [Licenses]({{< ref "/content/docs/admin-portal/licenses" >}}) - View detailed license data behind KPI cards
-- [Settings]({{< ref "/content/docs/admin-portal/settings" >}}) - Configure dashboard behavior and data collection
-- [Profile]({{< ref "/content/docs/admin-portal/profile" >}}) - Customize your personal dashboard preferences
+- [Widgets]({{< ref "/docs/content/docs/admin-portal/widgets" >}}) - Create and manage custom dashboard widgets
+- [Telemetry]({{< ref "/docs/content/docs/admin-portal/telemetry" >}}) - View detailed telemetry data feeding dashboard charts
+- [Logs]({{< ref "/docs/content/docs/admin-portal/logs" >}}) - Full activity log with advanced filtering (feeds Recent Activity)
+- [Products]({{< ref "/docs/content/docs/admin-portal/products" >}}) - Manage products shown in dashboard charts
+- [Licenses]({{< ref "/docs/content/docs/admin-portal/licenses" >}}) - View detailed license data behind KPI cards
+- [Settings]({{< ref "/docs/content/docs/admin-portal/settings" >}}) - Configure dashboard behavior and data collection
+- [Profile]({{< ref "/docs/content/docs/admin-portal/profile" >}}) - Customize your personal dashboard preferences
 
 ---
 

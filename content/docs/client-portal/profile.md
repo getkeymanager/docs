@@ -52,5 +52,5 @@ Maintain account security with self-service password updates:
 
 ## Related Pages
 
-- [Settings]({{< ref "/content/docs/client-portal/settings" >}}) - Configure communication preferences and notification alerts.
-- [Dashboard]({{< ref "/content/docs/client-portal/dashboard" >}}) - Return to the main portal overview.
+- [Settings]({{< ref "/docs/content/docs/client-portal/settings" >}}) - Configure communication preferences and notification alerts.
+- [Dashboard]({{< ref "/docs/content/docs/client-portal/dashboard" >}}) - Return to the main portal overview.
