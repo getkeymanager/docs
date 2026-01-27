@@ -592,10 +592,10 @@ A: Refunds are not automatically synced. You should manually suspend or revoke t
 
 ## Related Settings
 
-- [Settings Overview]({{< ref "/docs/docs/content/docs/admin-portal/settings/_index" >}}) - All settings tabs
-- [General Settings]({{< ref "/docs/docs/content/docs/admin-portal/general" >}}) - Core configuration
-- [License Settings]({{< ref "/docs/docs/content/docs/admin-portal/license" >}}) - Activation limits and license behavior
-- [Webhooks]({{< ref "/docs/docs/content/docs/admin-portal/webhooks" >}}) - Trigger actions on Envato purchases
+- [Settings Overview]({{< ref "/../docs/docs/admin-portal/settings/_index" >}}) - All settings tabs
+- [General Settings]({{< ref "/../docs/docs/admin-portal/general" >}}) - Core configuration
+- [License Settings]({{< ref "/../docs/docs/admin-portal/license" >}}) - Activation limits and license behavior
+- [Webhooks]({{< ref "/../docs/docs/admin-portal/webhooks" >}}) - Trigger actions on Envato purchases
 
 ---
 

@@ -58,13 +58,13 @@ Manage your inbox efficiency with bulk operations:
 ## Troubleshooting
 
 - **Missing Notifications**: Notifications are scoped per admin. You will only see alerts relevant to your role or specific assignments.
-- **Email Delivery**: If you are not receiving email mirrors for notifications, verify your email address in the [Profile]({{< ref "/docs/docs/content/docs/admin-portal/profile" >}}) page and check your system's SMTP configuration.
+- **Email Delivery**: If you are not receiving email mirrors for notifications, verify your email address in the [Profile]({{< ref "/../docs/docs/admin-portal/profile" >}}) page and check your system's SMTP configuration.
 - **Real-time Updates**: The notification counter in the header updates automatically via WebSockets/Livewire events. If it seems stuck, a page refresh will sync the state.
 
 ---
 
 ## Related Pages
 
-- [Dashboard]({{< ref "/docs/docs/content/docs/admin-portal/dashboard" >}}) - Summary of system health.
-- [Profile]({{< ref "/docs/docs/content/docs/admin-portal/profile" >}}) - Manage your personal notification preferences.
-- [Logs]({{< ref "/docs/docs/content/docs/admin-portal/logs" >}}) - Deep dive into system-level events and errors.
+- [Dashboard]({{< ref "/../docs/docs/admin-portal/dashboard" >}}) - Summary of system health.
+- [Profile]({{< ref "/../docs/docs/admin-portal/profile" >}}) - Manage your personal notification preferences.
+- [Logs]({{< ref "/../docs/docs/admin-portal/logs" >}}) - Deep dive into system-level events and errors.

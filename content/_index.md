@@ -9,11 +9,11 @@ GetKeyManager is an enterprise-grade, API-first, cryptographically verifiable **
 
 ## Key Features
 
-*   **[Admin Governance]({{< ref "/docs/docs/content/docs/admin-portal" >}})** — Complete control over products, generators, and licenses.
+*   **[Admin Governance]({{< ref "/../docs/docs/admin-portal" >}})** — Complete control over products, generators, and licenses.
 *   **[Multi-Framework SDKs]({{< ref "/docs" >}})** — Native support for Laravel, PHP, CodeIgniter, Node.js, and React.
-*   **[Offline Validation]({{< ref "/docs/docs/content/docs/usb-offline" >}})** — Cryptographically sign licenses for air-gapped systems.
-*   **[API-First Architecture]({{< ref "/docs/docs/content/docs/api" >}})** — Fully documented REST API for seamless automation.
-*   **[Customer Self-Service]({{< ref "/docs/docs/content/docs/client-portal" >}})** — Let users manage their own activations and downloads.
+*   **[Offline Validation]({{< ref "/../docs/docs/usb-offline" >}})** — Cryptographically sign licenses for air-gapped systems.
+*   **[API-First Architecture]({{< ref "/../docs/docs/api" >}})** — Fully documented REST API for seamless automation.
+*   **[Customer Self-Service]({{< ref "/../docs/docs/client-portal" >}})** — Let users manage their own activations and downloads.
 
 ## Explore the Docs
 

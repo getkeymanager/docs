@@ -124,9 +124,9 @@ To maintain platform integrity and legal compliance, the following data is **exc
 
 ## Related Pages
 
-* [System Logs]({{< ref "/docs/docs/content/docs/admin-portal/logs" >}}) — View the data being managed by these policies
-* [Settings → Audit Trails]({{< ref "/docs/docs/content/docs/admin-portal/settings" >}}) — View the permanent history that is never purged
-* [Background Jobs]({{< ref "/docs/docs/content/docs/admin-portal/background-jobs" >}}) — Monitor the status of the purge tasks
+* [System Logs]({{< ref "/../docs/docs/admin-portal/logs" >}}) — View the data being managed by these policies
+* [Settings → Audit Trails]({{< ref "/../docs/docs/admin-portal/settings" >}}) — View the permanent history that is never purged
+* [Background Jobs]({{< ref "/../docs/docs/admin-portal/background-jobs" >}}) — Monitor the status of the purge tasks
 
 ---
 

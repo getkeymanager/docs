@@ -589,9 +589,9 @@ A: No, it only affects new communications. Old emails retain the original addres
 
 ## Related Settings
 
-- [Settings Overview]({{< ref "/docs/docs/content/docs/admin-portal/settings/_index" >}}) - All settings tabs
-- [Email Settings]({{< ref "/docs/docs/content/docs/admin-portal/email" >}}) - Configure email delivery
-- [Logging Settings]({{< ref "/docs/docs/content/docs/admin-portal/logging" >}}) - Track system activities
+- [Settings Overview]({{< ref "/../docs/docs/admin-portal/settings/_index" >}}) - All settings tabs
+- [Email Settings]({{< ref "/../docs/docs/admin-portal/email" >}}) - Configure email delivery
+- [Logging Settings]({{< ref "/../docs/docs/admin-portal/logging" >}}) - Track system activities
 
 ---
 
