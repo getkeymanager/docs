@@ -47,7 +47,7 @@ To protect intellectual property and ensure link integrity:
 
 - **"No Downloads Available"**: 
     - Verify that you have a license in an `Active` or `Assigned` state.
-    - Check the [My Licenses]({{< ref "/../../docs/client-portal/licenses" >}}) page to ensure your support/update period has not expired.
+    - Check the [My Licenses]({{< ref "/../docs/client-portal/licenses" >}}) page to ensure your support/update period has not expired.
 - **Link Expired Error**: If you wait too long after clicking the download button, the S3 signed URL will expire. Simply refresh the page and click "Download" again.
 - **Access Denied**: If you believe you should have access to a file but are seeing an error, ensure your license covers that specific product version. Maintenance renewals may be required for major version jumps.
 
@@ -55,5 +55,5 @@ To protect intellectual property and ensure link integrity:
 
 ## Related Pages
 
-- [My Licenses]({{< ref "/../../docs/client-portal/licenses" >}}) - Verify your product entitlements and expiration dates.
-- [Dashboard]({{< ref "/../../docs/client-portal/dashboard" >}}) - Summary of total downloadable assets available.
+- [My Licenses]({{< ref "/../docs/client-portal/licenses" >}}) - Verify your product entitlements and expiration dates.
+- [Dashboard]({{< ref "/../docs/client-portal/dashboard" >}}) - Summary of total downloadable assets available.

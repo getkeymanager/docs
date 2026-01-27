@@ -726,10 +726,10 @@ Changes take effect immediately upon saving.
 
 ## Related Settings
 
-- [Settings Overview]({{< ref "/../../docs/admin-portal/settings/_index" >}}) - All settings tabs
-- [General Settings]({{< ref "/../../docs/admin-portal/general" >}}) - Site-wide configuration
-- [Email Settings]({{< ref "/../../docs/admin-portal/email" >}}) - Notification preferences
-- [Webhooks]({{< ref "/../../docs/admin-portal/webhooks" >}}) - Automate changelog notifications
+- [Settings Overview]({{< ref "/../docs/admin-portal/settings/_index" >}}) - All settings tabs
+- [General Settings]({{< ref "/../docs/admin-portal/general" >}}) - Site-wide configuration
+- [Email Settings]({{< ref "/../docs/admin-portal/email" >}}) - Notification preferences
+- [Webhooks]({{< ref "/../docs/admin-portal/webhooks" >}}) - Automate changelog notifications
 
 ---
 

@@ -82,7 +82,7 @@ Click the **"Personal Pin"** icon to add or remove a specific widget from *your*
 6. Set **Width:** "6".
 7. Under **Telemetry Flags**, select "Flagged".
 8. **Save**.
-9. Go to your [Dashboard]({{< ref "/../../docs/admin-portal/dashboard" >}}) to see the new chart.
+9. Go to your [Dashboard]({{< ref "/../docs/admin-portal/dashboard" >}}) to see the new chart.
 
 ### Workflow 2: Optimizing Dashboard Layout
 
@@ -112,15 +112,15 @@ Click the **"Personal Pin"** icon to add or remove a specific widget from *your*
 **Solution:**
 - Verify the **Telemetry Group** name matches exactly what is sent by the SDK.
 - Check if the **Filters** are too restrictive.
-- Ensure [Telemetry]({{< ref "/../../docs/admin-portal/telemetry" >}}) is actually being received for that product.
+- Ensure [Telemetry]({{< ref "/../docs/admin-portal/telemetry" >}}) is actually being received for that product.
 
 ---
 
 ## Related Pages
 
-* [Dashboard]({{< ref "/../../docs/admin-portal/dashboard" >}}) — View your configured widgets in action
-* [Telemetry]({{< ref "/../../docs/admin-portal/telemetry" >}}) — Sources for custom widget data
-* [Products]({{< ref "/../../docs/admin-portal/products" >}}) — Map widgets to specific software assets
+* [Dashboard]({{< ref "/../docs/admin-portal/dashboard" >}}) — View your configured widgets in action
+* [Telemetry]({{< ref "/../docs/admin-portal/telemetry" >}}) — Sources for custom widget data
+* [Products]({{< ref "/../docs/admin-portal/products" >}}) — Map widgets to specific software assets
 
 ---
 

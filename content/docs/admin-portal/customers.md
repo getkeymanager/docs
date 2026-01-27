@@ -13,7 +13,7 @@ weight: 70
 The **Customers** page is your complete customer database and management hub. This is where you view, search, and manage all customers who own licenses in your system. Customers are the end users who:
 
 * **Own licenses** assigned to their accounts
-* **Access the [Client Portal]({{< ref "/../../docs/admin-portal/../client-portal/dashboard" >}})** to manage their licenses and activations
+* **Access the [Client Portal]({{< ref "/../docs/admin-portal/../client-portal/dashboard" >}})** to manage their licenses and activations
 * **Activate licenses** on their devices, machines, or domains
 * **Download product files** and software updates (if downloadables are enabled)
 * **View their activation history** and device management
@@ -68,7 +68,7 @@ The customer list table displays all customers who have licenses assigned to the
 **Email Column**
 - Primary identifier for the customer
 - Unique across all customers (no duplicates allowed)
-- Used for login to [Client Portal]({{< ref "/../../docs/admin-portal/../client-portal/dashboard" >}})
+- Used for login to [Client Portal]({{< ref "/../docs/admin-portal/../client-portal/dashboard" >}})
 - Text color: Muted foreground (secondary information style)
 - Cannot be changed after account creation (immutable)
 
@@ -201,7 +201,7 @@ Click the **"View"** button or click the customer row to open the customer detai
 - Pagination if customer has many licenses (15 per page)
 - **Quick Actions:**
   - **Assign New License** — Button to assign additional license to this customer
-  - **View All in Licenses Page** — Opens [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) filtered by this customer
+  - **View All in Licenses Page** — Opens [Licenses]({{< ref "/../docs/admin-portal/licenses" >}}) filtered by this customer
 
 **Section 3: Activation History**
 - All devices/domains where customer has activated licenses
@@ -215,7 +215,7 @@ Click the **"View"** button or click the customer row to open the customer detai
   - Last Verified (how recently device checked license)
   - Actions (Deactivate)
 - Useful for troubleshooting "activation limit reached" issues
-- Link to [Activations]({{< ref "/../../docs/admin-portal/activations" >}}) page filtered by customer
+- Link to [Activations]({{< ref "/../docs/admin-portal/activations" >}}) page filtered by customer
 
 **Section 4: Customer Activity Timeline** (if implemented)
 - Chronological event history:
@@ -246,7 +246,7 @@ Click the **"View"** button or click the customer row to open the customer detai
 
 When you assign a license to an email address that doesn't exist in the system:
 
-1. Go to [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) page
+1. Go to [Licenses]({{< ref "/../docs/admin-portal/licenses" >}}) page
 2. Find an unassigned license (Status: Available)
 3. Click **Edit** or **Assign** button
 4. Enter customer email in "Assign To" field
@@ -263,7 +263,7 @@ When you assign a license to an email address that doesn't exist in the system:
    - Magic link or password setup link
    - Instructions to access Client Portal
 8. Customer clicks link, sets password (if required), logs in
-9. Customer sees their license(s) in [Client Portal]({{< ref "/../../docs/admin-portal/../client-portal/licenses" >}})
+9. Customer sees their license(s) in [Client Portal]({{< ref "/../docs/admin-portal/../client-portal/licenses" >}})
 
 **Manual Creation (Not Available in UI)**
 
@@ -320,7 +320,7 @@ This ensures every customer account has a purpose (owns at least one license). P
 | Aspect | Customers | Admin Users |
 |--------|-----------|-------------|
 | **Purpose** | Own and use licenses | Manage the platform |
-| **Portal Access** | [Client Portal]({{< ref "/../../docs/admin-portal/../client-portal/dashboard" >}}) | [Admin Portal]({{< ref "/../../docs/admin-portal/dashboard" >}}) |
+| **Portal Access** | [Client Portal]({{< ref "/../docs/admin-portal/../client-portal/dashboard" >}}) | [Admin Portal]({{< ref "/../docs/admin-portal/dashboard" >}}) |
 | **Authentication** | Email + password (customer accounts) | Email + password (admin accounts) |
 | **Permissions** | View/manage own licenses only | View/manage all system data |
 | **Can See** | Only their own licenses and activations | All customers, all licenses, all data |
@@ -404,7 +404,7 @@ This ensures every customer account has a purpose (owns at least one license). P
    - Expected 5, found 3 → 2 licenses missing
 
 5. **Check for Unassigned Licenses**
-   - Go to [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) page
+   - Go to [Licenses]({{< ref "/../docs/admin-portal/licenses" >}}) page
    - Filter: Status = "Available" (unassigned)
    - Search: Customer email or order number
    - Found: 2 licenses with Status = "Available"
@@ -496,7 +496,7 @@ This ensures every customer account has a purpose (owns at least one license). P
    - Note all licenses (e.g., 3 licenses found)
 
 3. **Create New Account** (if doesn't exist)
-   - Go to [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) page
+   - Go to [Licenses]({{< ref "/../docs/admin-portal/licenses" >}}) page
    - Find any unassigned license OR select one from old account
    - Assign to: `new@email.com`
    - System creates new customer account automatically
@@ -538,7 +538,7 @@ This ensures every customer account has a purpose (owns at least one license). P
 **Steps:**
 
 1. **Go to Licenses Page** (Not Customers page)
-   - [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) page has better filtering for this
+   - [Licenses]({{< ref "/../docs/admin-portal/licenses" >}}) page has better filtering for this
    - Filter: Status = "Active"
    - Filter: Expiry Date → Next 30 days (if available)
    - OR: Export all licenses, filter in spreadsheet
@@ -697,8 +697,8 @@ This keeps the system focused on its core purpose: license management. Integrate
 
 **Data Retention:**
 - Customer accounts never auto-deleted (manual only)
-- Licenses have separate retention (see [Retention Policies]({{< ref "/../../docs/admin-portal/retention-policies" >}}))
-- Logs may be auto-purged (see [Retention Policies]({{< ref "/../../docs/admin-portal/retention-policies" >}}))
+- Licenses have separate retention (see [Retention Policies]({{< ref "/../docs/admin-portal/retention-policies" >}}))
+- Logs may be auto-purged (see [Retention Policies]({{< ref "/../docs/admin-portal/retention-policies" >}}))
 - Audit trails are immutable (never deleted)
 
 ---
@@ -786,7 +786,7 @@ This keeps the system focused on its core purpose: license management. Integrate
 - Resend invitation email or password reset
 - Check email isn't in spam folder
 - Verify customer has active licenses (access may be restricted without licenses)
-- Check [Logs]({{< ref "/../../docs/admin-portal/logs" >}}) for authentication errors
+- Check [Logs]({{< ref "/../docs/admin-portal/logs" >}}) for authentication errors
 
 ---
 
@@ -794,8 +794,8 @@ This keeps the system focused on its core purpose: license management. Integrate
 
 **Solutions:**
 - Check spam/junk folder
-- Verify email settings configured in [Settings > Email]({{< ref "/../../docs/admin-portal/settings" >}})
-- Check [Logs]({{< ref "/../../docs/admin-portal/logs" >}}) for email send failures
+- Verify email settings configured in [Settings > Email]({{< ref "/../docs/admin-portal/settings" >}})
+- Check [Logs]({{< ref "/../docs/admin-portal/logs" >}}) for email send failures
 - Resend invitation manually
 - Use password reset flow as alternative
 - Verify email address is correct (no typos)
@@ -842,7 +842,7 @@ Name was not provided when license was assigned. Customer can update their name 
 
 ### How do I find all customers with licenses expiring soon?
 
-Go to [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) page (better filtering), not Customers page. Filter by expiry date range. Export list of customer emails. Cross-reference with Customers page for contact info.
+Go to [Licenses]({{< ref "/../docs/admin-portal/licenses" >}}) page (better filtering), not Customers page. Filter by expiry date range. Export list of customer emails. Cross-reference with Customers page for contact info.
 
 ---
 
@@ -854,17 +854,17 @@ Yes (if implemented). Look for "Export All" button or use database export. Respe
 
 ### Do customers get notified when licenses are assigned to them?
 
-Only if email notifications are configured in [Settings > Email]({{< ref "/../../docs/admin-portal/settings" >}}) and "Send email on license issue" is enabled for the product. Otherwise, no automatic notification.
+Only if email notifications are configured in [Settings > Email]({{< ref "/../docs/admin-portal/settings" >}}) and "Send email on license issue" is enabled for the product. Otherwise, no automatic notification.
 
 ---
 
 ## Related Pages
 
-* [Licenses]({{< ref "/../../docs/admin-portal/licenses" >}}) — Assign licenses to customers, bulk operations
-* [Activations]({{< ref "/../../docs/admin-portal/activations" >}}) — View customer device activations and usage
-* [Client Portal]({{< ref "/../../docs/admin-portal/../client-portal/dashboard" >}}) — What customers see (their perspective)
-* [Settings > Email]({{< ref "/../../docs/admin-portal/settings" >}}) — Configure customer invitation and notification emails
-* [Logs]({{< ref "/../../docs/admin-portal/logs" >}}) — Audit customer activity, logins, and actions
+* [Licenses]({{< ref "/../docs/admin-portal/licenses" >}}) — Assign licenses to customers, bulk operations
+* [Activations]({{< ref "/../docs/admin-portal/activations" >}}) — View customer device activations and usage
+* [Client Portal]({{< ref "/../docs/admin-portal/../client-portal/dashboard" >}}) — What customers see (their perspective)
+* [Settings > Email]({{< ref "/../docs/admin-portal/settings" >}}) — Configure customer invitation and notification emails
+* [Logs]({{< ref "/../docs/admin-portal/logs" >}}) — Audit customer activity, logins, and actions
 
 ---
 
