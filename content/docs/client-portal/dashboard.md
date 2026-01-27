@@ -51,12 +51,12 @@ A summary table of your 5 most recently acquired licenses, showing:
 
 - **KPIs Not Updating**: Dashboard data is refreshed on every page load. If you recently purchased a license and it isn't appearing, ensure the transaction has completed and refresh the page.
 - **Missing Licenses**: Ensure you are logged in with the email address associated with your purchase.
-- **Expiring Soon Warning**: If paths show "Expiring Soon," click the license key in the [My Licenses]({{< ref "/docs/client-portal/licenses" >}}) section to view renewal options or contact support.
+- **Expiring Soon Warning**: If paths show "Expiring Soon," click the license key in the [My Licenses]({{< ref "/content/docs/client-portal/licenses" >}}) section to view renewal options or contact support.
 
 ---
 
 ## Related Pages
 
-- [My Licenses]({{< ref "/docs/client-portal/licenses" >}}) - Detailed view of every key you own.
-- [Activations]({{< ref "/docs/client-portal/activations" >}}) - Deep dive into device management.
-- [Downloads]({{< ref "/docs/client-portal/downloads" >}}) - Access to software files.
+- [My Licenses]({{< ref "/content/docs/client-portal/licenses" >}}) - Detailed view of every key you own.
+- [Activations]({{< ref "/content/docs/client-portal/activations" >}}) - Deep dive into device management.
+- [Downloads]({{< ref "/content/docs/client-portal/downloads" >}}) - Access to software files.

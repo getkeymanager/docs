@@ -812,10 +812,10 @@ A: Multi-instance licensing is available for Enterprise customers with custom pr
 
 ## Related Settings
 
-- [Settings Overview]({{< ref "/docs/admin-portal/settings/_index" >}}) - All settings tabs
-- [General Settings]({{< ref "/docs/admin-portal/general" >}}) - Platform configuration
-- [Telemetry Settings]({{< ref "/docs/admin-portal/telemetry" >}}) - Usage reporting
-- [Dashboard]({{< ref "/docs/admin-portal/../dashboard" >}}) - View license status summary
+- [Settings Overview]({{< ref "/content/docs/admin-portal/settings/_index" >}}) - All settings tabs
+- [General Settings]({{< ref "/content/docs/admin-portal/general" >}}) - Platform configuration
+- [Telemetry Settings]({{< ref "/content/docs/admin-portal/telemetry" >}}) - Usage reporting
+- [Dashboard]({{< ref "/content/docs/admin-portal/../dashboard" >}}) - View license status summary
 
 ---
 

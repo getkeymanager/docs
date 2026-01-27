@@ -52,6 +52,6 @@ Instead of navigating to individual departments, you can search for:
 
 ## Related Pages
 
-- [Dashboard]({{< ref "/docs/admin-portal/dashboard" >}}) - System status summary.
-- [Licenses]({{< ref "/docs/admin-portal/licenses" >}}) - Manage full license lifecycle.
-- [Customers]({{< ref "/docs/admin-portal/customers" >}}) - View detailed customer history.
+- [Dashboard]({{< ref "/content/docs/admin-portal/dashboard" >}}) - System status summary.
+- [Licenses]({{< ref "/content/docs/admin-portal/licenses" >}}) - Manage full license lifecycle.
+- [Customers]({{< ref "/content/docs/admin-portal/customers" >}}) - View detailed customer history.

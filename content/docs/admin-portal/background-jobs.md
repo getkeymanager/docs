@@ -65,6 +65,6 @@ When a task fails (e.g., due to a temporary network timeout or an invalid API ke
 
 ## Related Pages
 
-- [Logs]({{< ref "/docs/admin-portal/logs" >}}) - Check for system-level errors associated with job failures.
-- [Settings]({{< ref "/docs/admin-portal/settings" >}}) - Configure timeout values and queue connections.
-- [Email Templates]({{< ref "/docs/admin-portal/email-templates" >}}) - Manage the content of queued email jobs.
+- [Logs]({{< ref "/content/docs/admin-portal/logs" >}}) - Check for system-level errors associated with job failures.
+- [Settings]({{< ref "/content/docs/admin-portal/settings" >}}) - Configure timeout values and queue connections.
+- [Email Templates]({{< ref "/content/docs/admin-portal/email-templates" >}}) - Manage the content of queued email jobs.
