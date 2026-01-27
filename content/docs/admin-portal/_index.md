@@ -4,6 +4,7 @@ weight: 2
 ---
 
 
+
 ![Admin Portal Overview](placeholder-overview.png)
 *Screenshot placeholder - will be added*
 
@@ -11,7 +12,7 @@ weight: 2
 
 ## Overview
 
-The **Admin Portal** is the control plane of the License Management Platform. It provides comprehensive tools for managing products, licenses, customers, and system configuration.
+The **Admin Portal** is the control panel of the License Management Platform. It provides comprehensive tools for managing products, licenses, customers, and system configuration.
 
 ### Who Is This For?
 
