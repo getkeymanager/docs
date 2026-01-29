@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
   <defs/>
-  <rect width="1024" height="1024" rx="227.123" fill="var(--primary, #2563eb)" style="" ry="227.123"/>
-  <g transform="matrix(25.6, 0, 0, 25.6, 204.800003, 204.800003)" stroke="var(--primary-foreground, #ffffff)" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="">
-    <path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"/>
-    <path d="m21 2-9.6 9.6"/>
-    <circle cx="7.5" cy="15.5" r="5.5"/>
+  <rect width="1024" height="1024" style="stroke: rgb(0, 0, 0); fill: rgb(29, 65, 216);" rx="222.815" ry="222.815"/>
+  <g style="" transform="matrix(1.492915, 0, 0, 1.492915, -260.08902, -242.137039)">
+    <path d="M 591.303 425.152 L 637.298 471.147 C 645.078 478.768 657.516 478.768 665.296 471.147 L 707.293 429.152 C 714.911 421.373 714.911 408.934 707.293 401.155 L 661.297 355.16" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" style="fill: none; stroke-width: 40px;"/>
+    <path d="M 701.293 315.164 L 509.312 507.145" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" style="stroke-width: 40px;"/>
+    <circle cx="431.319" cy="585.136" r="109.988" stroke="#ffffff" fill="none" style="stroke-width: 40px;"/>
   </g>
 </svg>
