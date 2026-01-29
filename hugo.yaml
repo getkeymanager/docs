@@ -71,9 +71,9 @@ params:
     logo:
       path: images/logo-km.svg
       dark: images/logo-dark-km.svg
-      # width: 40
-      # height: 40
-      # link: /
+      width: 50
+      height: 50
+      link: /
     width: wide
 
   footer:
