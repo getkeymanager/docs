@@ -3,7 +3,7 @@ title: USB-Based Offline License Management
 weight: 30
 ---
 
-![USB Offline Placeholder Image](PLACEHOLDER_FOR_IMAGE)
+![USB Offline Placeholder Image](placeholder-offline-license.png)
 
 ---
 

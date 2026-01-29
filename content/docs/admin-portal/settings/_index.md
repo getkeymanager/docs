@@ -5,7 +5,7 @@ weight: 200
 
 
 
-![Admin Portal Settings Overview](placeholder-settings-overview.png)
+![Admin Portal Settings Overview](placeholder-settings-general.png)
 *Screenshot showing the settings interface with all 11 tabs*
 
 ---

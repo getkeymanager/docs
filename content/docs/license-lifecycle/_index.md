@@ -3,7 +3,7 @@ title: License Lifecycle & State Machine
 weight: 30
 ---
 
-![License Lifecycle Placeholder Image](PLACEHOLDER_FOR_IMAGE)
+![License Lifecycle Placeholder Image](placeholder-offline-license.png)
 
 ## Purpose & Scope
 Defines license states, allowed and forbidden transitions, preconditions, postconditions, side-effects, and explainability rules. Applies to Admin Dashboard, API, Client Portal, offline validation, and SDKs.
