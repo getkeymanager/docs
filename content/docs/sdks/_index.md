@@ -3,7 +3,7 @@ title: Software Development Kits (SDKs)
 weight: 20
 ---
 
-
+# Software Development Kits (SDKs)
 
 Integrate GetKeyManager effortlessly with your applications using our official SDKs. Each SDK is optimized for its respective ecosystem and follows industry-standard patterns.
 
@@ -11,6 +11,9 @@ Integrate GetKeyManager effortlessly with your applications using our official S
 
 {{< cards >}}
   {{< card link="php" title="PHP SDK" icon="code" >}}
+  {{< card link="python" title="Python SDK" icon="code" >}}
+  {{< card link="ruby" title="Ruby SDK" icon="code" >}}
+  {{< card link="go" title="Go SDK" icon="code" >}}
   {{< card link="laravel" title="Laravel SDK" icon="code" >}}
   {{< card link="codeigniter" title="CodeIgniter SDK" icon="code" >}}
   {{< card link="javascript" title="JavaScript SDK" icon="code" >}}
@@ -30,13 +33,14 @@ Integrate GetKeyManager effortlessly with your applications using our official S
 
 ## Common Features
 
-| Feature | PHP | Laravel | CodeIgniter | JavaScript | React | Next.js |
-|---------|:---:|:-------:|:-----------:|:----------:|:-----:|:-------:|
-| License Validation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Signature Verification | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Offline Mode | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| State-Based Logic | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Grace Period Support | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Feature Flags | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Telemetry | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| CI/CD Ready | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Feature | PHP | Python | Ruby | Go | Laravel | CodeIgniter | JavaScript | React | Next.js |
+|---------|:---:|:------:|:----:|:--:|:-------:|:-----------:|:----------:|:-----:|:-------:|
+| License Validation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Signature Verification | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Offline Mode | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| State-Based Logic | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Grace Period Support | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Feature Flags | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Telemetry | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Full API Coverage (37 endpoints) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| CI/CD Ready | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
